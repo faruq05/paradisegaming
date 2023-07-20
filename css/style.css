@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --cs-yl: #FFCD1C;
+    --cs-wh: #fff;
+    --cs-primary: #1B0632;
+}
+
+h1 {
+    font-size: 69px;
+    font-weight: 600;
+    color: var(--cs-wh);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 66px;
+    font-weight: 600;
+    color: var(--cs-wh);
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--cs-wh);
+}
+
+p {
+    font-size: 19px;
+    font-weight: 300;
+    color: var(--cs-wh);
+    line-height: 32px;
+}
+
+.yl {
+    color: var(--cs-yl);
+}
+
+.btn-all {
+    background-color: #ffffff2b;
+    border-radius: 30px 20px 30px 20px;
+    width: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 10px;
+    color: var(--cs-wh);
+    font-weight: 600;
+    border: .5px solid #ffffff71;
+    transition: .2s all ease-in-out .2s all ease-in-out;
+}
+
+.btn-all:hover {
+    background-color: #6C4796;
+    color: var(--cs-wh);
+}
+
+.c-60 {
+    padding: 60px 0px;
+}
+
+/* header */
+.header {
+    position: absolute;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--cs-wh);
+    font-size: 18px;
+    padding: 0px;
+    padding-left: 30px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--cs-wh);
+}
+
+/* header ends */
+
+/* hero */
+.hero {
+    background: url(../images/Ellipse\ 2.png);
+    background-color: var(--cs-primary);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.hero .row {
+    min-height: 100vh;
+    align-items: center;
+}
+
+.hero_button {
+    margin: 20px 0px 60px 0px;
+}
+
+.count {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter {
+    text-align: center;
+}
+
+marquee {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20211834733893552) 0%, rgba(0, 0, 0, 0) 100%);
+    backdrop-filter: blur(10px);
+    border: 0.5px solid #ffffff2b;
+    margin-top: -43px;
+    transform: rotate(359deg);
+}
+
+.slide {
+    display: flex;
+    padding: 10px 0px;
+}
+
+.gnews h3 {
+    text-transform: uppercase;
+}
+
+.gnews i {
+    color: var(--cs-yl);
+    font-size: 35px;
+    padding: 0px 40px;
+}
