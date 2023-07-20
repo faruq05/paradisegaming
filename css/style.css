@@ -23,6 +23,7 @@ a {
     --cs-yl: #FFCD1C;
     --cs-wh: #fff;
     --cs-primary: #1B0632;
+    --cs-bgwh: #ffffff20;
 }
 
 h1 {
@@ -41,6 +42,12 @@ h2 {
 
 h3 {
     font-size: 30px;
+    font-weight: 600;
+    color: var(--cs-wh);
+}
+
+h4 {
+    font-size: 24px;
     font-weight: 600;
     color: var(--cs-wh);
 }
@@ -106,7 +113,7 @@ p {
     background-color: var(--cs-primary);
     background-position: top left;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 53%;
     min-height: 100vh;
 }
 
@@ -151,3 +158,85 @@ marquee {
     font-size: 35px;
     padding: 0px 40px;
 }
+
+/* hero ends */
+
+/* notices */
+.notices {
+    background: url(../images/Ellipse\ 3.png);
+    background-color: var(--cs-primary);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news_date {
+    color: #ffffff21;
+    margin-left: -7px !important;
+}
+
+.avatar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-container {
+    width: 100%;
+    height: 1px;
+    position: relative;
+    margin: 20px 0px;
+}
+
+.line-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, transparent, #fff);
+    z-index: 1;
+}
+
+.pfp {
+    display: flex;
+    align-items: center;
+}
+
+.pfp p {
+    padding-left: 10px;
+}
+
+.newsbox {
+    background-color: var(--cs-bgwh);
+    border: .5px solid var(--cs-bgwh);
+    padding: 25px;
+    border-radius: 15px;
+    width: 93%;
+    height: 370px;
+    margin: auto;
+    position: relative;
+}
+
+.news-carousel .owl-nav.disabled {
+    display: block;
+}
+
+.owl-prev span{
+    color: var(--cs-bgwh);
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+}
+
+.owl-next span{
+    color: var(--cs-bgwh);
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translateY(-50%);
+}
+/* notices ends */
