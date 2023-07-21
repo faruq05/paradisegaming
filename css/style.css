@@ -52,6 +52,12 @@ h4 {
     color: var(--cs-wh);
 }
 
+.para {
+    line-height: 35px;
+    width: 80%;
+    margin: 30px auto;
+}
+
 
 p {
     font-size: 19px;
@@ -274,8 +280,11 @@ marquee {
     position: relative;
 }
 
-.gboard img {
+.gmode img {
     width: 100%;
+    height: 400px;
+    object-fit: fill;
+    border-radius: 30px;
 }
 
 .player_info p {
@@ -402,7 +411,7 @@ marquee {
 /* influ starts */
 .influ {
     background: url(../images/Ellipse\ 11.png),
-    url(../images/Ellipse\ 14.png);
+        url(../images/Ellipse\ 14.png);
     background-position: center right, bottom left;
     background-size: 48%, 58%;
     background-repeat: no-repeat;
@@ -419,6 +428,10 @@ marquee {
     border-radius: 30px;
     padding: 20px;
     margin-top: 40px;
+}
+
+.influ_tab img {
+    border-radius: 30px;
 }
 
 
@@ -443,6 +456,13 @@ marquee {
 .influ_social li a i {
     color: var(--cs-wh);
     font-size: 25px;
+}
+
+.partner_badge {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* contact */
@@ -522,6 +542,7 @@ marquee {
 
 .form_des p {
     padding: 10px 0px;
+    font-size: 17px;
 }
 
 .social_link {
@@ -533,16 +554,16 @@ marquee {
 }
 
 /* footer */
-.footer_des p{
+.footer_des p {
     font-size: 17px;
     margin: 10px 0px;
 }
 
-.flinks{
+.flinks {
     display: flex;
 }
 
-.flinks li{
+.flinks li {
     list-style: none;
     width: 50px;
     height: 50px;
@@ -554,36 +575,135 @@ marquee {
     margin-right: 10px;
 }
 
-.flinks li a{}
+.flinks li a {}
 
-.flinks li a i{
+.flinks li a i {
     font-size: 25px;
     color: var(--cs-wh);
 }
 
-.footer_items{}
+.footer_items {}
 
-.footer_items li{
+.footer_items li {
     list-style: none;
     margin-bottom: 15px;
 }
 
-.footer_items li h6{
+.footer_items li h6 {
     color: var(--cs-wh);
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.footer_items li a{
+.footer_items li a {
     color: var(--cs-wh);
     font-weight: 400;
     text-transform: capitalize;
 }
 
-.footer{
+.footer {
     background: url(../images/Footer.png);
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 0px;
+}
+
+
+
+/* agency page */
+.agency {
+    background: url(../images/Ellipse\ 2.png);
+    background-color: var(--cs-primary);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 36%;
+    padding: 130px 0px 40px 0px;
+}
+
+
+.agency_count {
+    width: 55%;
+    margin: auto;
+}
+
+.represent {
+    background: url(../images/Ellipse\ 3.png), url(../images/Ellipse\ 4.png);
+    background-color: var(--cs-primary);
+    background-position: top right, center left;
+    background-repeat: no-repeat;
+    background-size: 67%, 60%;
+}
+
+.influ_des {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.influ_pos p {
+    padding: 0;
+}
+
+.influ_pos h6 {
+    font-size: 16px;
+    font-weight: 100;
+    color: var(--cs-wh);
+}
+
+.owner_link li {
+    margin-left: 15px;
+}
+
+.brand {
+    background: url(../images/Ellipse\ 11.png), url(../images/Ellipse\ 14.png);
+    background-position: top right, bottom left;
+    background-size: 50%, 58%;
+    background-repeat: no-repeat;
+    background-color: var(--cs-primary);
+
+}
+
+.brand_image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* agency page ends */
+
+/* history pg starts */
+.history {
+    background: url(../images/Ellipse\ 2.png), url(../images/Ellipse\ 3.png);
+    background-color: var(--cs-primary);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    background-size: 36%, 50%;
+    padding: 130px 0px 40px 0px;
+}
+
+.com_logo {
+    justify-content: space-around;
+}
+
+.empressa {
+    margin-bottom: 20px;
+}
+
+.empressa img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.footerpr {
+    background-color: var(--cs-primary);
+}
+
+.company {
+    background: url(../images/Ellipse\ 4.png);
+    background-color: var(--cs-primary);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 56%;
 }
