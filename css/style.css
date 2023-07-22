@@ -787,3 +787,41 @@ marquee {
     background-size: 36%, 40%;
     padding: 130px 0px 0px 0px;
 }
+
+/* reglas rust start */
+.exmp {
+    color: var(--cs-wh);
+    font-weight: 200;
+}
+
+.reglas_rust_rules li {
+    margin-bottom: 15px;
+}
+
+.rust_r li {
+    list-style: disc inside;
+}
+
+.reglas_gmod_rules li {
+    list-style: none;
+}
+
+.gmod_r li {
+    margin-bottom: 8px;
+    font-weight: 200;
+    font-size: 19px;
+    list-style: disc inside !important;
+}
+
+.gmod_concept li {
+    list-style: auto inside !important;
+    margin-bottom: 8px;
+}
+
+.gmod_sub li {
+    list-style: disc inside !important;
+}
+
+.gmod-cust {
+    font-weight: 200;
+}
