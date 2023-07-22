@@ -776,3 +776,14 @@ marquee {
 .terms_rules {
     margin: 30px 0px;
 }
+
+/* reglas_csgo page start */
+.reglas_csgo {
+    background: url(../images/Ellipse\ 2.png),
+        url(../images/Ellipse\ 3.png);
+    background-color: var(--cs-primary);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    background-size: 36%, 40%;
+    padding: 130px 0px 0px 0px;
+}
