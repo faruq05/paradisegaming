@@ -707,3 +707,72 @@ marquee {
     background-repeat: no-repeat;
     background-size: 56%;
 }
+
+/* nosotros page ends */
+
+
+/* reglas page starts */
+.server {
+    background: url(../images/Ellipse\ 3.png), url(../images/Ellipse\ 4.png);
+    background-color: var(--cs-primary);
+    background-position: top right, bottom left;
+    background-repeat: no-repeat;
+    background-size: 41%, 40%;
+}
+
+.reglas_content p {
+    line-height: 35px;
+    margin: 30px 0px;
+}
+
+.reglas_rules p {
+    margin-bottom: 10px !important;
+}
+
+.reglas_rules li {
+
+    color: var(--cs-wh);
+
+    font-size: 19px;
+
+    list-style: decimal inside;
+
+    margin-bottom: 5px;
+}
+
+.server_content p {
+    margin: 20px 0px;
+    font-weight: 500;
+}
+
+.server_button {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.ape_rules {
+    margin: 30px 0px;
+}
+
+.ape_rules li {
+    list-style: none;
+}
+
+/* reflas page ends */
+
+
+/* terms and con page */
+
+.tnC {
+    background: url(../images/Ellipse\ 2.png),
+        url(../images/Ellipse\ 3.png), url(../images/Ellipse\ 4.png);
+    background-color: var(--cs-primary);
+    background-position: top left, center right, bottom left;
+    background-repeat: no-repeat;
+    background-size: 46%, 40%, 35%;
+    padding: 130px 0px 0px 0px;
+}
+
+.terms_rules {
+    margin: 30px 0px;
+}
