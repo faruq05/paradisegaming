@@ -252,11 +252,13 @@ marquee {
 /* game carousel starts */
 .game_buttons {
     padding: 40px 0px;
+    display: flex;
     justify-content: center;
 }
 
 .btn-all2 {
-    width: 220px;
+    width: auto;
+    padding: 20px 40px;
 }
 
 .player {
@@ -274,6 +276,7 @@ marquee {
 
     width: 93%;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .gboard {
@@ -290,6 +293,8 @@ marquee {
 .player_info p {
     line-height: 0;
     padding-left: 10px;
+    margin: 0;
+    text-transform: uppercase;
 }
 
 .playgame {
@@ -309,6 +314,10 @@ marquee {
     transform: translateX(-50%);
 }
 
+.playgame p {
+    text-transform: uppercase;
+}
+
 .gamesave {
 
     font-size: 40px;
@@ -324,6 +333,10 @@ marquee {
     left: 50%;
 
     transform: translate(-50%, -50%);
+}
+
+.gamesave h4 {
+    text-transform: uppercase;
 }
 
 .playgame i {
@@ -378,6 +391,10 @@ marquee {
     justify-content: center;
 }
 
+.gbt i {
+    font-size: 30px;
+}
+
 /* cta */
 .cta {
 
@@ -388,16 +405,20 @@ marquee {
     border-radius: 30px;
 
     margin-top: 80px;
+
+    padding: 20px 40px;
 }
 
 .cta_image {}
 
 .cta_image img {
-    margin-top: -108px;
+    margin-top: -130px;
 }
 
 .cta_content h4 {
     font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .cta_content p {
@@ -420,6 +441,7 @@ marquee {
 
 .influ_tab p {
     padding: 10px 0px;
+    text-transform: capitalize;
 }
 
 .influ_tab {
@@ -824,4 +846,108 @@ marquee {
 
 .gmod-cust {
     font-weight: 200;
+}
+
+.reglas_gmod {
+    background: url(../images/Ellipse\ 2.png),
+        url(../images/Ellipse\ 3.png);
+    background-color: var(--cs-primary);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    background-size: 36%, 40%;
+    padding: 130px 0px 0px 0px;
+}
+
+.staff img {
+    margin-bottom: 40px;
+}
+
+.staff_button {
+
+    display: flex;
+}
+
+.staff_button i {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.btn-stf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-stf:hover {
+    background-color: #ecececb7;
+}
+
+/* servidores_staff page */
+.serv_stf {
+    background: url(../images/Ellipse\ 2.png);
+    background-color: var(--cs-primary);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    padding: 130px 0px 40px 0px;
+}
+
+.adminis {
+    background: url(../images/Ellipse\ 4.png), url(../images/Ellipse\ 3.png);
+    background-color: var(--cs-primary);
+    background-position: center left, top right;
+    background-repeat: no-repeat;
+    background-size: 70%, 41%;
+    padding: 130px 0px 40px 0px;
+}
+
+.adminismods {
+    padding-bottom: 0;
+    background-position: bottom left, top right;
+}
+
+.gboard_text h4 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.gboard_text h6 {
+    font-size: 16px;
+    margin-top: 10px;
+    color: var(--cs-wh);
+    line-height: 32px;
+}
+
+
+/* servidores page starts */
+.csgo_serv {
+    background: url(../images/Ellipse\ 3.png), url(../images/Ellipse\ 4.png);
+    background-color: var(--cs-primary);
+    background-position: top right, bottom left;
+    background-repeat: no-repeat;
+    background-size: 45%, 45%;
+}
+
+.serv_rust {
+    background: url(../images/Ellipse\ 3.png);
+    background-color: var(--cs-primary);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 47%;
+}
+
+.serv_tf2 {
+    background: url(../images/Ellipse\ 4.png);
+    background-color: var(--cs-primary);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 48%;
+}
+
+.serv_gmod {
+    background: url(../images/Ellipse\ 3.png), url(../images/Ellipse\ 4.png), url(../images/Ellipse\ 3.png);
+    background-color: var(--cs-primary);
+    background-position: top right, center left, bottom right;
+    background-repeat: no-repeat;
+    background-size: 63%, 60%, 46%;
 }
