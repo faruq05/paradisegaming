@@ -1,3 +1,76 @@
+@media(max-width:1024px) {
+    p {
+        font-size: 19px;
+        line-height: 28px;
+    }
+
+    .btn-all {
+        padding: 15px 30px;
+    }
+
+    .c-60 {
+        padding: 40px 0px;
+    }
+
+    .header .container-fluid {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        width: 70%;
+    }
+
+
+    .hero {
+        padding-top: 110px;
+    }
+
+    .hero .row {
+        min-height: 85vh;
+    }
+
+    .hero_image {
+        margin-bottom: 40px;
+    }
+
+    .hero_button {
+        margin: 20px 0px 60px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .count {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .cbox {
+        display: block;
+    }
+
+    .cbox2 {
+        display: none;
+    }
+
+    .newsbox {
+        height: 440px;
+    }
+
+    .cta_image img {
+        margin-top: 0;
+    }
+
+    .partner_badge {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
 @media(max-width:991px) {
     h1 {
         font-size: 50px;
@@ -73,11 +146,11 @@
         margin: auto;
     }
 
-    .count p{
-        
-font-size: 16px;
-        
-line-height: 22px;
+    .count p {
+
+        font-size: 16px;
+
+        line-height: 22px;
     }
 
     .cbox {
@@ -86,7 +159,7 @@ line-height: 22px;
 
     .cbox2 {
         display: none;
-            }
+    }
 
     .game_buttons {
         flex-wrap: wrap;
@@ -148,13 +221,13 @@ line-height: 22px;
     }
 
     .cta {
-        padding: 15px;
+        padding: 20px;
         margin-top: 0;
         text-align: center;
         margin: 0 8px;
     }
 
-    .cta_content{
+    .cta_content {
         text-align: left;
     }
 
@@ -201,7 +274,7 @@ line-height: 22px;
     }
 
     .mailbox img {
-        margin-top: 0;
+        margin-top: -155px;
     }
 
     .footer_des p {

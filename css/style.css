@@ -499,8 +499,13 @@ marquee {
 .partner_badge {
     margin-top: 30px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.partner_badge img{
+    margin-right: 10px;
 }
 
 /* contact */
