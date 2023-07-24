@@ -34,7 +34,9 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-icon">
+                            <i class="fa-solid fa-bars"></i>
+                        </span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -91,24 +93,26 @@
                         <p>Somos una empresa y comunidad comprometida con el <br> mundo del Gaming creada para ofrecerte
                             la
                             mejor <br> experiencia. <strong class="yl">Conectamos entretenimiento.</strong> </p>
-                        <div class="hero_button">
-                            <a href="#" class="btn btn-all">TIENDA</a>
-                            <a href="#" class="btn btn-all">PARTNERS</a>
-                        </div>
-                        <div class="count">
-                            <div class="counter">
-                                <h3>+17.000</h3>
-                                <p>Jugadores</p>
+                        <div class="cbox">
+                            <div class="hero_button">
+                                <a href="#" class="btn btn-all">TIENDA</a>
+                                <a href="#" class="btn btn-all">PARTNERS</a>
                             </div>
+                            <div class="count">
+                                <div class="counter">
+                                    <h3>+17.000</h3>
+                                    <p>Jugadores</p>
+                                </div>
 
-                            <div class="counter">
-                                <h3 class="yl">+12</h3>
-                                <p>Influencers representados</p>
-                            </div>
+                                <div class="counter">
+                                    <h3 class="yl">+12</h3>
+                                    <p>Influencers representados</p>
+                                </div>
 
-                            <div class="counter">
-                                <h3>+50</h3>
-                                <p>Acciones con marcas</p>
+                                <div class="counter">
+                                    <h3>+50</h3>
+                                    <p>Acciones con marcas</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -144,6 +148,29 @@
                     </div>
                 </div>
             </marquee>
+
+            <div class="cbox2">
+                <div class="hero_button">
+                    <a href="#" class="btn btn-all">TIENDA</a>
+                    <a href="#" class="btn btn-all">PARTNERS</a>
+                </div>
+                <div class="count">
+                    <div class="counter">
+                        <h3>+17.000</h3>
+                        <p>Jugadores</p>
+                    </div>
+
+                    <div class="counter">
+                        <h3 class="yl">+12</h3>
+                        <p>Influencers</p>
+                    </div>
+
+                    <div class="counter">
+                        <h3>+50</h3>
+                        <p>Marcas</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- hero ends -->
@@ -364,12 +391,12 @@
         <!-- cta -->
         <div class="container">
             <div class="row cta align-items-center">
-                <div class="col-md-6">
+                <div class="col-md-6 order-md-1 order-2">
                     <div class="cta_image">
                         <img src="images/cta.png" class="img-fluid" alt="cta_image">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 order-md-2 order-1">
                     <div class="cta_content">
                         <h4> DESCUBRÍ LAS <br> <span class="yl">VENTAJAS</span> DE SER <br> VIP CON NOSOTROS</h4>
                         <p>Ser un usuario VIP otorga muchas ventajas, desde exclusivos comandos y paquetes en nuestros
@@ -586,7 +613,7 @@
                 <div class="col-md-12 text-center">
                     <h2>nuestros <span class="yl">partners</span></h2>
                 </div>
-                <div class="col-md-12 partner_badge">
+                <div class="col-md-12 partner_badge ">
                     <img src="images/1xbet 1.png" class="img-fluid" alt="">
                     <img src="images/cbet 1.png" class="img-fluid" alt="">
                     <img src="images/Wintomato.png" class="img-fluid" alt="">
@@ -794,7 +821,22 @@
                     autoplayTimeout: 5000,
                     smartSpeed: 500,
                     nav: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                        },
+                        425: {
+                            items: 1,
+                        },
+                        767: {
+                            items: 1,
+                        },
+                        768: {
+                            items: 2,
+                        },
+                       
 
+                    }
                 }
             );
 
@@ -810,11 +852,58 @@
                     smartSpeed: 500,
                     dotsEach: true,
                     nav: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                        },
+                        425: {
+                            items: 1,
+                        },
+                        767: {
+                            items: 2,
+                        },
+                        768: {
+                            items: 2,
+                        },
 
+                    }
                 }
             );
 
         });
+
+        // $(document).ready(function () {
+        //     $(".badge-carousel").owlCarousel(
+        //         {
+        //             items: 3,
+        //             loop: true,
+        //             autoplay: false,
+        //             autoplayTimeout: 5000,
+        //             smartSpeed: 500,
+        //             dotsEach: true,
+        //             nav: false,
+        //             // responsive: {
+        //             //     0: {
+        //             //         items: 1,
+        //             //     },
+        //             //     425: {
+        //             //         items: 2,
+        //             //     },
+        //             //     767: {
+        //             //         items: 3,
+        //             //     },
+        //             //     768: {
+        //             //         items: 3,
+        //             //     },
+        //             //     991: {
+        //             //         items: 5,
+        //             //     },
+
+        //             // }
+        //         }
+        //     );
+
+        // });
     </script>
 </body>
 

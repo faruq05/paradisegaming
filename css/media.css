@@ -1,0 +1,683 @@
+@media(max-width:991px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .btn-all {
+        padding: 15px 30px;
+    }
+
+    .c-60 {
+        padding: 40px 0px;
+    }
+
+    .header .container-fluid {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        width: 70%;
+    }
+
+    .navbar-nav {
+        background-color: var(--cs-primary);
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .hero {
+        padding-top: 110px;
+    }
+
+    .hero .row {
+        min-height: 85vh;
+    }
+
+    .hero_image {
+        margin-bottom: 40px;
+    }
+
+    .hero_button {
+        margin: 20px 0px 60px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .count {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+    }
+
+    .count p{
+        
+font-size: 16px;
+        
+line-height: 22px;
+    }
+
+    .cbox {
+        display: block;
+    }
+
+    .cbox2 {
+        display: none;
+            }
+
+    .game_buttons {
+        flex-wrap: wrap;
+    }
+
+    .partner_badge {
+        flex-wrap: wrap;
+    }
+
+    .newsbox {
+        height: auto;
+        padding: 15px;
+    }
+
+    .news_content p,
+    h4 {
+        text-align: left;
+    }
+
+    .news_date {
+        text-align: left !important;
+    }
+
+    .pfp img {
+        width: 40% !important;
+    }
+
+    .pfp p {
+        padding-left: 8px;
+        font-size: 13px;
+    }
+
+    .owl-prev span {
+        left: -15px;
+    }
+
+    .owl-next span {
+        right: -15px;
+    }
+
+    .btn-all2 {
+        margin: 0px 8px 15px 0px;
+    }
+
+    .gameboard {
+        width: 95%;
+    }
+
+    .playgame {
+        width: 95%;
+    }
+
+    .playgame p {
+        font-size: 12px;
+    }
+
+    .gbt {
+        margin-bottom: 15px;
+    }
+
+    .cta {
+        padding: 15px;
+        margin-top: 0;
+        text-align: center;
+        margin: 0 8px;
+    }
+
+    .cta_content{
+        text-align: left;
+    }
+
+    .cta_content h4 {
+        font-size: 35px;
+        text-align: left;
+    }
+
+    .cta_image img {
+        margin-top: 0;
+    }
+
+    .influ_social li {
+        width: 45px;
+        height: 45px;
+    }
+
+    .influ_tab {
+        padding: 14px;
+    }
+
+    .partner_badge {
+        justify-content: center;
+    }
+
+    .partner_badge img {
+        width: 17%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .contact h3 {
+        font-size: 35px;
+    }
+
+    .contact {
+        padding: 30px;
+        margin-top: 0;
+    }
+
+    .form_des p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .mailbox img {
+        margin-top: 0;
+    }
+
+    .footer_des p {
+        font-size: 14px;
+        text-align: left;
+        margin: 10px 0px;
+    }
+
+    .flinks li a i {
+        font-size: 18px;
+    }
+
+    .flinks li {
+        width: 35px;
+        height: 35px;
+        border: 1px solid var(--cs-wh);
+        margin-right: 10px;
+    }
+
+    .footer_items {
+        margin-top: 25px;
+    }
+}
+
+@media(max-width:767px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .btn-all {
+        padding: 15px 30px;
+    }
+
+    .c-60 {
+        padding: 40px 0px;
+    }
+
+    .header .container-fluid {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        width: 70%;
+    }
+
+    .navbar-nav {
+        background-color: var(--cs-primary);
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .hero {
+        padding-top: 110px;
+    }
+
+    .hero .row {
+        min-height: 85vh;
+    }
+
+    .hero_image {
+        margin-bottom: 40px;
+    }
+
+    .hero_button {
+        margin: 20px 0px 60px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .count {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin: auto;
+    }
+
+    .cbox {
+        display: none;
+    }
+
+    .cbox2 {
+        display: block;
+        padding: 0px 15px;
+    }
+
+    .game_buttons {
+        flex-wrap: wrap;
+    }
+
+    .partner_badge {
+        flex-wrap: wrap;
+    }
+
+    .newsbox {
+        height: auto;
+        padding: 15px;
+    }
+
+    .news_content p,
+    h4 {
+        text-align: center;
+    }
+
+    .news_date {
+        text-align: left !important;
+    }
+
+    .pfp img {
+        width: 40% !important;
+    }
+
+    .pfp p {
+        padding-left: 8px;
+        font-size: 13px;
+    }
+
+    .owl-prev span {
+        left: -15px;
+    }
+
+    .owl-next span {
+        right: -15px;
+    }
+
+    .btn-all2 {
+        margin: 0px 8px 15px 0px;
+    }
+
+    .gameboard {
+        width: 95%;
+    }
+
+    .playgame {
+        width: 95%;
+    }
+
+    .playgame p {
+        font-size: 12px;
+    }
+
+    .gbt {
+        margin-bottom: 15px;
+    }
+
+    .cta {
+        padding: 15px;
+        margin-top: 0;
+        text-align: center;
+        margin: 0 8px;
+    }
+
+    .cta_content h4 {
+        font-size: 35px;
+    }
+
+    .cta_image img {
+        margin-top: 0;
+    }
+
+    .influ_social li {
+        width: 45px;
+        height: 45px;
+    }
+
+    .influ_tab {
+        padding: 20px;
+    }
+
+    .partner_badge {
+        justify-content: center;
+    }
+
+    .partner_badge img {
+        width: 24%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .contact h3 {
+        font-size: 35px;
+    }
+
+    .contact {
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    .form_des p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .mailbox img {
+        margin-top: 0;
+    }
+
+    .footer_des p {
+        font-size: 14px;
+        text-align: left;
+        margin: 10px 0px;
+    }
+
+    .flinks li a i {
+        font-size: 25px;
+    }
+
+    .flinks li {
+        width: 50px;
+        height: 50px;
+        border: 1px solid var(--cs-wh);
+        margin-right: 10px;
+    }
+
+    .footer_items {
+        margin-top: 25px;
+    }
+}
+
+@media(max-width:575px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .btn-all {
+        padding: 15px 30px;
+    }
+
+    .c-60 {
+        padding: 40px 0px;
+    }
+
+    .header .container-fluid {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        width: 70%;
+    }
+
+    .navbar-nav {
+        background-color: var(--cs-primary);
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .hero {
+        padding-top: 100px;
+    }
+
+    .hero .row {
+        min-height: 85vh;
+    }
+
+    .hero_image {
+        margin-bottom: 40px;
+    }
+
+    .hero_button {
+        margin: 20px 0px 60px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .count {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .cbox {
+        display: none;
+    }
+
+    .cbox2 {
+        display: block;
+        padding: 0px 15px;
+    }
+
+    .game_buttons {
+        flex-wrap: wrap;
+    }
+
+    .partner_badge {
+        flex-wrap: wrap;
+    }
+
+    .newsbox {
+        height: auto;
+        padding: 15px;
+    }
+
+    .news_content p,
+    h4 {
+        text-align: center;
+    }
+
+    .news_date {
+        text-align: left !important;
+    }
+
+    .pfp img {
+        width: 40% !important;
+    }
+
+    .pfp p {
+        padding-left: 8px;
+        font-size: 13px;
+    }
+
+    .owl-prev span {
+        left: -10px;
+    }
+
+    .owl-next span {
+        right: -10px;
+    }
+
+    .btn-all2 {
+        margin: 0px 8px 15px 0px;
+    }
+
+    .gameboard {
+        width: 100%;
+    }
+
+    .playgame {
+        width: 95%;
+    }
+
+    .playgame p {
+        font-size: 12px;
+    }
+
+    .gbt {
+        margin-bottom: 15px;
+    }
+
+    .cta {
+        padding: 15px;
+        margin-top: 0;
+        text-align: center;
+        margin: 0 8px;
+    }
+
+    .cta_content h4 {
+        font-size: 22px;
+    }
+
+    .cta_image img {
+        margin-top: 0;
+    }
+
+    .influ_social li {
+        width: 45px;
+        height: 45px;
+    }
+
+    .influ_tab {
+        padding: 10px;
+    }
+
+    .partner_badge {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .partner_badge img {
+        width: 55%;
+        margin-bottom: 10px;
+    }
+
+    .contact h3 {
+        font-size: 28px;
+    }
+
+    .contact {
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    .form_des p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .mailbox img {
+        margin-top: 0;
+    }
+
+    .footer_des p {
+        font-size: 14px;
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .flinks li a i {
+        font-size: 14px;
+    }
+
+    .flinks li {
+        width: 35px;
+        height: 35px;
+        border: 1px solid var(--cs-wh);
+        margin-right: 5px;
+    }
+
+    .footer_items {
+        margin-top: 25px;
+    }
+}
+
+
+@media(max-width:320px) {
+    .newsbox {
+        height: 460px;
+        padding: 15px;
+    }
+
+    .hero_button {
+        margin: 20px 0px 60px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .count {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn-all2 {
+        margin: 0px 1px 15px 0px;
+    }
+}

@@ -73,9 +73,9 @@ p {
 .btn-all {
     background-color: #ffffff2b;
     border-radius: 30px 20px 30px 20px;
-    width: 160px;
+    width: auto;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 35px;
     margin-right: 10px;
     color: var(--cs-wh);
     font-weight: 600;
@@ -112,6 +112,10 @@ p {
     color: var(--cs-wh);
 }
 
+.navbar-icon i{
+    color: var(--cs-wh);
+}
+
 /* header ends */
 
 /* hero */
@@ -131,6 +135,9 @@ p {
 
 .hero_button {
     margin: 20px 0px 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .count {
@@ -149,6 +156,10 @@ marquee {
     border: 0.5px solid #ffffff2b;
     margin-top: -43px;
     transform: rotate(359deg);
+}
+
+.cbox2{
+    display: none;
 }
 
 .slide {
@@ -225,8 +236,13 @@ marquee {
     position: relative;
 }
 
+
 .news-carousel .owl-nav.disabled {
     display: block;
+}
+
+.news-carousel .owl-dots{
+    display: none;
 }
 
 .owl-prev span {
@@ -583,6 +599,8 @@ marquee {
 
 .flinks {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .flinks li {
