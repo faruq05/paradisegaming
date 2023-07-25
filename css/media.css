@@ -69,6 +69,10 @@
         justify-content: center;
     }
 
+    .agency {
+        padding-top: 130px;
+    }
+
 }
 
 @media(max-width:991px) {
@@ -297,6 +301,23 @@
     .footer_items {
         margin-top: 25px;
     }
+
+    .agency {
+        padding-top: 130px;
+    }
+
+    .brand_image {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .brand_image img {
+        width: 30%;
+    }
+
+    .serv_gmod .cta {
+        margin-bottom: 20px;
+    }
 }
 
 @media(max-width:767px) {
@@ -514,6 +535,29 @@
     .footer_items {
         margin-top: 25px;
     }
+
+    .agency {
+        padding-top: 130px;
+    }
+
+    .brand_image {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .brand_image img {
+        width: 75%;
+        margin-bottom: 10px;
+    }
+
+    .para {
+        width: 100%;
+    }
+
+    .staff img {
+        margin-bottom: 40px;
+        width: 60%;
+    }
 }
 
 @media(max-width:575px) {
@@ -522,7 +566,7 @@
     }
 
     h2 {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     h3 {
@@ -587,6 +631,7 @@
     .count {
         display: flex;
         justify-content: space-evenly;
+        width: 70%;
     }
 
     .cbox {
@@ -596,6 +641,10 @@
     .cbox2 {
         display: block;
         padding: 0px 15px;
+    }
+
+    .agency {
+        padding-top: 100px;
     }
 
     .game_buttons {
@@ -678,7 +727,7 @@
     }
 
     .influ_tab {
-        padding: 10px;
+        padding: 20px;
     }
 
     .partner_badge {
@@ -729,6 +778,33 @@
     .footer_items {
         margin-top: 25px;
     }
+
+    .staff_button {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn-stf {
+        padding: 15px 30px;
+        margin-bottom: 10px;
+    }
+
+    .agency_count {
+        display: block;
+        width: 100%;
+    }
+
+    .agency_count .counter {
+        margin-bottom: 20px;
+    }
+
+    .zmes {
+        display: none;
+    }
+
+    .zmessh {
+        display: block;
+    }
 }
 
 
@@ -748,9 +824,27 @@
     .count {
         display: flex;
         justify-content: space-between;
+        width: 100%;
     }
 
     .btn-all2 {
         margin: 0px 1px 15px 0px;
+    }
+
+    .agency_count {
+        display: block;
+        width: 100%;
+    }
+
+    .agency_count .counter {
+        margin-bottom: 20px;
+    }
+
+    .zmes {
+        display: none;
+    }
+
+    .zmessh {
+        display: block;
     }
 }

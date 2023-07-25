@@ -137,7 +137,7 @@ p {
     margin: 20px 0px 60px 0px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .count {
@@ -943,6 +943,9 @@ marquee {
 
 
 /* servidores page starts */
+.zmessh{
+    display: none;
+}
 .csgo_serv {
     background: url(../images/Ellipse\ 3.png), url(../images/Ellipse\ 4.png);
     background-color: var(--cs-primary);
