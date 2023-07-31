@@ -1,21 +1,16 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat, sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-li,
-a {
-    margin: 0;
-    padding: 0;
+body {
+    background-color: var(--cs-primary);
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
     text-decoration: none;
 }
 
@@ -52,12 +47,15 @@ h4 {
     color: var(--cs-wh);
 }
 
+.influ_social li a {
+    line-height: 0;
+}
+
 .para {
     line-height: 35px;
     width: 80%;
     margin: 30px auto;
 }
-
 
 p {
     font-size: 19px;
@@ -71,20 +69,18 @@ p {
 }
 
 .btn-all {
-    background-color: #ffffff2b;
-    border-radius: 30px 20px 30px 20px;
+    background-color: rgba(255, 255, 255, 0.17);
+    border-radius: 30px 20px;
     width: auto;
-    padding-top: 15px;
     padding: 15px 35px;
     margin-right: 10px;
     color: var(--cs-wh);
     font-weight: 600;
-    border: .5px solid #ffffff71;
-    transition: .2s all ease-in-out .2s all ease-in-out;
+    border: 0.5px solid rgba(255, 255, 255, 0.443);
 }
 
 .btn-all:hover {
-    background-color: #6C4796;
+    background-color: rgb(108, 71, 150);
     color: var(--cs-wh);
 }
 
@@ -92,7 +88,6 @@ p {
     padding: 60px 0px;
 }
 
-/* header */
 .header {
     position: absolute;
     width: 100%;
@@ -102,8 +97,7 @@ p {
 .navbar-light .navbar-nav .nav-link {
     color: var(--cs-wh);
     font-size: 18px;
-    padding: 0px;
-    padding-left: 30px;
+    padding: 0px 0px 0px 30px;
     font-weight: 200;
     text-transform: uppercase;
 }
@@ -112,17 +106,34 @@ p {
     color: var(--cs-wh);
 }
 
-.navbar-icon i{
+.navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 0.67);
+}
+
+.dropdown-menu {
+    background-color: rgba(27, 6, 50, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.dropdown-menu a {
+    color: var(--cs-wh) !important;
+}
+
+.dropdown-item:hover {
+    color: rgb(0, 0, 0) !important;
+}
+
+.navbar-icon i {
     color: var(--cs-wh);
 }
 
-/* header ends */
-
-/* hero */
 .hero {
-    background: url(../images/Ellipse\ 2.png);
+    background-image: url("../images/Ellipse 2.png");
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
     background-color: var(--cs-primary);
-    background-position: top left;
+    background-position: left top;
     background-repeat: no-repeat;
     background-size: 53%;
     min-height: 100vh;
@@ -134,7 +145,7 @@ p {
 }
 
 .hero_button {
-    margin: 20px 0px 60px 0px;
+    margin: 20px 0px 60px;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -150,15 +161,14 @@ p {
 }
 
 marquee {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20211834733893552) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(rgba(255, 255, 255, 0.204) 0%, rgba(0, 0, 0, 0) 100%);
     backdrop-filter: blur(10px);
-    border: 0.5px solid #ffffff2b;
+    border: 0.5px solid rgba(255, 255, 255, 0.17);
     margin-top: -43px;
-    transform: rotate(359deg);
+    transform: rotate(-2deg);
 }
 
-.cbox2{
+.cbox2 {
     display: none;
 }
 
@@ -177,19 +187,19 @@ marquee {
     padding: 0px 40px;
 }
 
-/* hero ends */
-
-/* notices */
 .notices {
-    background: url(../images/Ellipse\ 3.png), url(../images/Ellipse\ 4.png);
+    background-image: url("../images/Ellipse 3.png"), url("../images/Ellipse 4.png");
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
     background-color: var(--cs-primary);
-    background-position: center right, bottom left;
+    background-position: right center, left bottom;
     background-repeat: no-repeat;
     background-size: 60%, 50%;
 }
 
 .news_date {
-    color: #ffffff21;
+    color: rgba(255, 255, 255, 0.13);
     margin-left: -7px !important;
 }
 
@@ -208,11 +218,11 @@ marquee {
 .line-container::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to left, transparent, #fff);
+    background: linear-gradient(to left, transparent, rgb(255, 255, 255));
     z-index: 1;
 }
 
@@ -236,12 +246,11 @@ marquee {
     position: relative;
 }
 
-
 .news-carousel .owl-nav.disabled {
     display: block;
 }
 
-.news-carousel .owl-dots{
+.news-carousel .owl-dots {
     display: none;
 }
 
@@ -263,9 +272,6 @@ marquee {
     transform: translateY(-50%);
 }
 
-
-
-/* game carousel starts */
 .game_buttons {
     padding: 40px 0px;
     display: flex;
@@ -289,10 +295,8 @@ marquee {
 }
 
 .gameboard {
-
     width: 93%;
-    margin: auto;
-    margin-bottom: 30px;
+    margin: auto auto 30px;
 }
 
 .gboard {
@@ -309,7 +313,7 @@ marquee {
 .player_info p {
     line-height: 0;
     padding-left: 10px;
-    margin: 0;
+    margin: 0px;
     text-transform: uppercase;
 }
 
@@ -317,12 +321,11 @@ marquee {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(180deg, rgb(255 255 255 / 29%) 0%, rgb(0 0 0 / 0%) 100%);
+    background: linear-gradient(rgba(255, 255, 255, 0.29) 0%, rgba(0, 0, 0, 0) 100%);
     backdrop-filter: blur(3px);
     border-radius: 30px;
-    border: 0.5px solid #ffffff1f;
-    box-shadow: 1px 6px 13px 0px #00000052;
+    border: 0.5px solid rgba(255, 255, 255, 0.12);
+    box-shadow: rgba(0, 0, 0, 0.32) 1px 6px 13px 0px;
     width: 70%;
     position: absolute;
     bottom: 10%;
@@ -335,19 +338,12 @@ marquee {
 }
 
 .gamesave {
-
     font-size: 40px;
-
     font-weight: 400;
-
     letter-spacing: 2px;
-
     position: absolute;
-
     top: 50%;
-
     left: 50%;
-
     transform: translate(-50%, -50%);
 }
 
@@ -369,7 +365,6 @@ marquee {
 
 .owl-carousel .owl-dots.disabled {
     display: flex;
-    transition: .2s all ease-in-out .2s all ease-in-out;
 }
 
 .game_carousel .owl-dots {
@@ -379,7 +374,6 @@ marquee {
     left: 48%;
     transform: translateX(-50%);
     bottom: -40px;
-
 }
 
 .game_carousel .owl-dots .owl-dot span {
@@ -389,7 +383,6 @@ marquee {
     border-radius: 50px;
     background-color: var(--cs-wh);
     margin-right: 10px;
-    transition: .2s all ease-in-out .2s all ease-in-out;
 }
 
 .game_carousel .owl-dots .active span {
@@ -397,8 +390,7 @@ marquee {
     width: 20px;
     height: 20px;
     border-radius: 50px;
-    background-color: #6C4796;
-    transition: .2s all ease-in-out .2s all ease-in-out;
+    background-color: rgb(108, 71, 150);
 }
 
 .gbt {
@@ -411,21 +403,16 @@ marquee {
     font-size: 30px;
 }
 
-/* cta */
 .cta {
-
     background-color: var(--cs-bgwh);
-
     border: 0.5px solid var(--cs-bgwh);
-
     border-radius: 30px;
-
     margin-top: 80px;
-
     padding: 20px 40px;
 }
 
-.cta_image {}
+.cta_image {
+}
 
 .cta_image img {
     margin-top: -130px;
@@ -438,18 +425,15 @@ marquee {
 }
 
 .cta_content p {
-
     padding: 20px 0px;
 }
 
-/* cta  ends */
-/* notices ends */
-
-/* influ starts */
 .influ {
-    background: url(../images/Ellipse\ 11.png),
-        url(../images/Ellipse\ 14.png);
-    background-position: center right, bottom left;
+    background-image: url("../images/Ellipse 11.png"), url("../images/Ellipse 14.png");
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-position: right center, left bottom;
     background-size: 48%, 58%;
     background-repeat: no-repeat;
     background-color: var(--cs-primary);
@@ -472,7 +456,6 @@ marquee {
     border-radius: 30px;
 }
 
-
 .influ_social {
     display: flex;
     justify-content: space-between;
@@ -482,14 +465,18 @@ marquee {
     list-style: none;
     width: 50px;
     height: 50px;
-    background-color: var(--cs-bgwh);
+    background-color: transparent;
     border: .5px solid var(--cs-bgwh);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
+    transition: all 0.3s ease-in-out 0s, all 0.3s ease-in-out 0s;
 }
 
+.influ_social li:hover {
+    background-color: var(--cs-bgwh);
+}
 
 .influ_social li a i {
     color: var(--cs-wh);
@@ -504,18 +491,10 @@ marquee {
     justify-content: center;
 }
 
-.partner_badge img{
+.partner_badge img {
     margin-right: 10px;
 }
 
-/* contact */
-/* .partnerbg{
-    background: url(../images/Ellipse\ 14.png);
-    background-position: center left;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-color: var(--cs-primary);
-} */
 .contact {
     background-color: var(--cs-bgwh);
     border: .5px solid var(--cs-bgwh);
@@ -539,14 +518,14 @@ marquee {
     padding: 12px;
     width: 49%;
     background-color: var(--cs-bgwh);
-    border: 0.5px solid #ffffff52;
+    border: 0.5px solid rgba(255, 255, 255, 0.32);
 }
 
 .namebox select {
     padding: 12px;
     width: 49%;
     background-color: var(--cs-bgwh);
-    border: 0.5px solid #ffffff52;
+    border: 0.5px solid rgba(255, 255, 255, 0.32);
     margin-bottom: 15px;
 }
 
@@ -557,20 +536,20 @@ marquee {
 
 .contact_form textarea {
     background-color: var(--cs-bgwh);
-    border: 0.5px solid #ffffff52;
+    border: 0.5px solid rgba(255, 255, 255, 0.32);
     margin-bottom: 40px;
     border-radius: 8px;
 }
 
 .form-control:focus {
-    color: #212529;
+    color: rgb(33, 37, 41);
     background-color: var(--cs-bgwh);
     border: 0.5px solid var(--cs-bgwh);
-    outline: 0;
+    outline: 0px;
     box-shadow: none;
 }
 
-.contact_form input[type='submit'] {
+.contact_form input[type="submit"] {
     border-radius: 50px;
 }
 
@@ -579,7 +558,6 @@ marquee {
 }
 
 .mailbox img {
-
     margin-top: -129px;
 }
 
@@ -596,7 +574,6 @@ marquee {
     margin-right: 15px;
 }
 
-/* footer */
 .footer_des p {
     font-size: 17px;
     margin: 10px 0px;
@@ -605,14 +582,14 @@ marquee {
 .flinks {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 .flinks li {
     list-style: none;
     width: 50px;
     height: 50px;
-    border: 1px solid #1B1BD9;
+    border: 1px solid var(--cs-wh);
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -620,14 +597,17 @@ marquee {
     margin-right: 10px;
 }
 
-.flinks li a {}
+.flinks li a {
+    line-height: 0;
+}
 
 .flinks li a i {
     font-size: 25px;
     color: var(--cs-wh);
 }
 
-.footer_items {}
+.footer_items {
+}
 
 .footer_items li {
     list-style: none;
@@ -647,25 +627,21 @@ marquee {
 }
 
 .footer {
-    background: url(../images/Footer.png);
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("../images/Footer.png") center bottom / cover no-repeat;
     padding: 50px 0px;
 }
 
-
-
-/* agency page */
 .agency {
-    background: url(../images/Ellipse\ 2.png);
+    background-image: url("../images/Ellipse 2.png");
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
     background-color: var(--cs-primary);
-    background-position: top left;
+    background-position: left top;
     background-repeat: no-repeat;
     background-size: 36%;
-    padding: 130px 0px 40px 0px;
+    padding: 130px 0px 40px;
 }
-
 
 .agency_count {
     width: 55%;
@@ -673,9 +649,12 @@ marquee {
 }
 
 .represent {
-    background: url(../images/Ellipse\ 3.png), url(../images/Ellipse\ 4.png);
+    background-image: url("../images/Ellipse 3.png"), url("../images/Ellipse 4.png");
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
     background-color: var(--cs-primary);
-    background-position: top right, center left;
+    background-position: right top, left center;
     background-repeat: no-repeat;
     background-size: 67%, 60%;
 }
@@ -687,7 +666,7 @@ marquee {
 }
 
 .influ_pos p {
-    padding: 0;
+    padding: 0px;
 }
 
 .influ_pos h6 {
@@ -701,12 +680,14 @@ marquee {
 }
 
 .brand {
-    background: url(../images/Ellipse\ 11.png), url(../images/Ellipse\ 14.png);
-    background-position: top right, bottom left;
+    background-image: url("../images/Ellipse 11.png"), url("../images/Ellipse 14.png");
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-position: right top, left bottom;
     background-size: 50%, 58%;
     background-repeat: no-repeat;
     background-color: var(--cs-primary);
-
 }
 
 .brand_image {
@@ -716,16 +697,16 @@ marquee {
     margin-bottom: 20px;
 }
 
-/* agency page ends */
-
-/* history pg starts */
 .history {
-    background: url(../images/Ellipse\ 2.png), url(../images/Ellipse\ 3.png);
+    background-image: url("../images/Ellipse 2.png"), url("../images/Ellipse 3.png");
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
     background-color: var(--cs-primary);
-    background-position: top left, bottom right;
+    background-position: left top, right bottom;
     background-repeat: no-repeat;
     background-size: 36%, 50%;
-    padding: 130px 0px 40px 0px;
+    padding: 130px 0px 40px;
 }
 
 .com_logo {
@@ -746,21 +727,23 @@ marquee {
 }
 
 .company {
-    background: url(../images/Ellipse\ 4.png);
+    background-image: url("../images/Ellipse 4.png");
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
     background-color: var(--cs-primary);
-    background-position: top left;
+    background-position: left top;
     background-repeat: no-repeat;
     background-size: 56%;
 }
 
-/* nosotros page ends */
-
-
-/* reglas page starts */
 .server {
-    background: url(../images/Ellipse\ 3.png), url(../images/Ellipse\ 4.png);
+    background-image: url("../images/Ellipse 3.png"), url("../images/Ellipse 4.png");
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
     background-color: var(--cs-primary);
-    background-position: top right, bottom left;
+    background-position: right top, left bottom;
     background-repeat: no-repeat;
     background-size: 41%, 40%;
 }
@@ -775,13 +758,9 @@ marquee {
 }
 
 .reglas_rules li {
-
     color: var(--cs-wh);
-
     font-size: 19px;
-
-    list-style: decimal inside;
-
+    list-style: inside decimal;
     margin-bottom: 5px;
 }
 
@@ -803,37 +782,34 @@ marquee {
     list-style: none;
 }
 
-/* reflas page ends */
-
-
-/* terms and con page */
-
 .tnC {
-    background: url(../images/Ellipse\ 2.png),
-        url(../images/Ellipse\ 3.png), url(../images/Ellipse\ 4.png);
+    background-image: url("../images/Ellipse 2.png"), url("../images/Ellipse 3.png"), url("../images/Ellipse 4.png");
+    background-attachment: initial, initial, initial;
+    background-origin: initial, initial, initial;
+    background-clip: initial, initial, initial;
     background-color: var(--cs-primary);
-    background-position: top left, center right, bottom left;
+    background-position: left top, right center, left bottom;
     background-repeat: no-repeat;
     background-size: 46%, 40%, 35%;
-    padding: 130px 0px 0px 0px;
+    padding: 130px 0px 0px;
 }
 
 .terms_rules {
     margin: 30px 0px;
 }
 
-/* reglas_csgo page start */
 .reglas_csgo {
-    background: url(../images/Ellipse\ 2.png),
-        url(../images/Ellipse\ 3.png);
+    background-image: url("../images/Ellipse 2.png"), url("../images/Ellipse 3.png");
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
     background-color: var(--cs-primary);
-    background-position: top left, bottom right;
+    background-position: left top, right bottom;
     background-repeat: no-repeat;
     background-size: 36%, 40%;
-    padding: 130px 0px 0px 0px;
+    padding: 130px 0px 0px;
 }
 
-/* reglas rust start */
 .exmp {
     color: var(--cs-wh);
     font-weight: 200;
@@ -844,7 +820,7 @@ marquee {
 }
 
 .rust_r li {
-    list-style: disc inside;
+    list-style: inside disc;
 }
 
 .reglas_gmod_rules li {
@@ -855,16 +831,16 @@ marquee {
     margin-bottom: 8px;
     font-weight: 200;
     font-size: 19px;
-    list-style: disc inside !important;
+    list-style: inside disc !important;
 }
 
 .gmod_concept li {
-    list-style: auto inside !important;
     margin-bottom: 8px;
+    list-style: inside auto !important;
 }
 
 .gmod_sub li {
-    list-style: disc inside !important;
+    list-style: inside disc !important;
 }
 
 .gmod-cust {
@@ -872,13 +848,15 @@ marquee {
 }
 
 .reglas_gmod {
-    background: url(../images/Ellipse\ 2.png),
-        url(../images/Ellipse\ 3.png);
+    background-image: url("../images/Ellipse 2.png"), url("../images/Ellipse 3.png");
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
     background-color: var(--cs-primary);
-    background-position: top left, bottom right;
+    background-position: left top, right bottom;
     background-repeat: no-repeat;
     background-size: 36%, 40%;
-    padding: 130px 0px 0px 0px;
+    padding: 130px 0px 0px;
 }
 
 .staff img {
@@ -886,7 +864,6 @@ marquee {
 }
 
 .staff_button {
-
     display: flex;
 }
 
@@ -902,31 +879,36 @@ marquee {
 }
 
 .btn-stf:hover {
-    background-color: #ecececb7;
+    background-color: rgba(236, 236, 236, 0.718);
 }
 
-/* servidores_staff page */
 .serv_stf {
-    background: url(../images/Ellipse\ 2.png);
+    background-image: url("../images/Ellipse 2.png");
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
     background-color: var(--cs-primary);
-    background-position: top left;
+    background-position: left top;
     background-repeat: no-repeat;
     background-size: 55%;
-    padding: 130px 0px 40px 0px;
+    padding: 130px 0px 40px;
 }
 
 .adminis {
-    background: url(../images/Ellipse\ 4.png), url(../images/Ellipse\ 3.png);
+    background-image: url("../images/Ellipse 4.png"), url("../images/Ellipse 3.png");
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
     background-color: var(--cs-primary);
-    background-position: center left, top right;
+    background-position: left center, right top;
     background-repeat: no-repeat;
     background-size: 70%, 41%;
-    padding: 130px 0px 40px 0px;
+    padding: 130px 0px 40px;
 }
 
 .adminismods {
-    padding-bottom: 0;
-    background-position: bottom left, top right;
+    padding-bottom: 0px;
+    background-position: left bottom, right top;
 }
 
 .gboard_text h4 {
@@ -941,39 +923,50 @@ marquee {
     line-height: 32px;
 }
 
-
-/* servidores page starts */
-.zmessh{
+.zmessh {
     display: none;
 }
+
 .csgo_serv {
-    background: url(../images/Ellipse\ 3.png), url(../images/Ellipse\ 4.png);
+    background-image: url("../images/Ellipse 3.png"), url("../images/Ellipse 4.png");
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
     background-color: var(--cs-primary);
-    background-position: top right, bottom left;
+    background-position: right top, left bottom;
     background-repeat: no-repeat;
     background-size: 45%, 45%;
 }
 
 .serv_rust {
-    background: url(../images/Ellipse\ 3.png);
+    background-image: url("../images/Ellipse 3.png");
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
     background-color: var(--cs-primary);
-    background-position: bottom right;
+    background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 47%;
 }
 
 .serv_tf2 {
-    background: url(../images/Ellipse\ 4.png);
+    background-image: url("../images/Ellipse 4.png");
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
     background-color: var(--cs-primary);
-    background-position: bottom left;
+    background-position: left bottom;
     background-repeat: no-repeat;
     background-size: 48%;
 }
 
 .serv_gmod {
-    background: url(../images/Ellipse\ 3.png), url(../images/Ellipse\ 4.png), url(../images/Ellipse\ 3.png);
+    background-image: url("../images/Ellipse 3.png"), url("../images/Ellipse 4.png"), url("../images/Ellipse 3.png");
+    background-attachment: initial, initial, initial;
+    background-origin: initial, initial, initial;
+    background-clip: initial, initial, initial;
     background-color: var(--cs-primary);
-    background-position: top right, center left, bottom right;
+    background-position: right top, left center, right bottom;
     background-repeat: no-repeat;
     background-size: 63%, 60%, 46%;
 }
