@@ -8,7 +8,16 @@ body {
     background-color: var(--cs-primary);
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, li, a {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
     margin: 0px;
     padding: 0px;
     text-decoration: none;
@@ -272,15 +281,49 @@ marquee {
     transform: translateY(-50%);
 }
 
+
+
 .game_buttons {
     padding: 40px 0px;
     display: flex;
     justify-content: center;
 }
 
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: rgba(255, 255, 255, 0.17);
+    border-radius: 30px 20px;
+    width: auto;
+    padding: 20px 40px;
+    margin-right: 10px;
+    color: var(--cs-wh);
+    font-weight: 600;
+    border: 0.5px solid rgba(255, 255, 255, 0.443);
+}
+
+.nav-pills{
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.nav-pills .nav-link {
+    background-color: rgba(255, 255, 255, 0.17);
+    border-radius: 30px 20px;
+    width: auto;
+    padding: 20px 40px;
+    margin-right: 10px;
+    color: var(--cs-wh);
+    font-weight: 600;
+    border: 0.5px solid rgba(255, 255, 255, 0.443);
+}
+
 .btn-all2 {
     width: auto;
     padding: 20px 40px;
+}
+
+.tab-content{
+    margin-top: 30px;
 }
 
 .player {
@@ -411,8 +454,7 @@ marquee {
     padding: 20px 40px;
 }
 
-.cta_image {
-}
+.cta_image {}
 
 .cta_image img {
     margin-top: -130px;
@@ -493,6 +535,14 @@ marquee {
 
 .partner_badge img {
     margin-right: 10px;
+    width: 80% !important;
+}
+
+.badge_carousel .owl-stage {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact {
@@ -606,8 +656,7 @@ marquee {
     color: var(--cs-wh);
 }
 
-.footer_items {
-}
+.footer_items {}
 
 .footer_items li {
     list-style: none;
