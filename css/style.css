@@ -6,7 +6,7 @@
 
 body {
     background-color: var(--cs-primary);
-    
+
 }
 
 h1,
@@ -302,7 +302,7 @@ marquee {
     border: 0.5px solid rgba(255, 255, 255, 0.443);
 }
 
-.nav-pills{
+.nav-pills {
     justify-content: center;
     margin-top: 30px;
 }
@@ -323,7 +323,7 @@ marquee {
     padding: 20px 40px;
 }
 
-.tab-content{
+.tab-content {
     margin-top: 30px;
 }
 
