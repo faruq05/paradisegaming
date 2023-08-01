@@ -566,7 +566,7 @@
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 29px;
     }
 
     h3 {
@@ -781,6 +781,7 @@
 
     .staff_button {
         flex-wrap: wrap;
+        margin-bottom: 20px!important;
         justify-content: center;
     }
 

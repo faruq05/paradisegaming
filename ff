@@ -1,0 +1,266 @@
+<div class="menu_tab wow fadeInDown" data-wow-duration="2s" data-wow-delay="0">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link menu_btn active" id="pills-cs1-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-cs1" type="button" role="tab" aria-controls="pills-cs1"
+                aria-selected="true">CASUAL
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link menu_btn" id="pills-cs2-tab" data-bs-toggle="pill" data-bs-target="#pills-cs2"
+                type="button" role="tab" aria-controls="pills-cs2" aria-selected="false">SURF/KILL</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link menu_btn" id="pills-cs3-tab" data-bs-toggle="pill" data-bs-target="#pills-cs3"
+                type="button" role="tab" aria-controls="pills-cs3" aria-selected="false">ZOMBIE ESCAPE</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link menu_btn" id="pills-cs4-tab" data-bs-toggle="pill" data-bs-target="#pills-cs4"
+                type="button" role="tab" aria-controls="pills-cs4" aria-selected="false">ARENA 1V1</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link menu_btn" id="pills-cs5-tab" data-bs-toggle="pill" data-bs-target="#pills-cs5"
+                type="button" role="tab" aria-controls="pills-cs5" aria-selected="false"> RETAKE</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link menu_btn" id="pills-cs6-tab" data-bs-toggle="pill" data-bs-target="#pills-cs6"
+                type="button" role="tab" aria-controls="pills-cs6" aria-selected="false"> AUOMIX</button>
+        </li>
+    </ul>
+
+
+    <div class="tab-content" id="pills-tabContent">
+        <!--Casual content -->
+        <div class="tab-pane fade active show" id="pills-cs1" role="tabpanel" aria-labelledby="pills-cs1-tab">
+            <div class="gameboard">
+                <div class="gboard">
+                    <div class="gmode">
+                        <img src="images/csgoborad.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="player">
+                        <div class="player_info d-flex align-items-center">
+                            <img src="images/user.png" class="img-fluid" alt="">
+                            <p>32/32</p>
+                        </div>
+                        <div class="map player_info d-flex align-items-center">
+                            <img src="images/map.png" class="img-fluid" alt="">
+                            <p>DE_DUST_2</p>
+                        </div>
+                    </div>
+                    <div class="gamesave">
+                        <h4>CASUAL/FUN 2.0</h4>
+                    </div>
+                    <div class="playgame">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <p>casual.paradisegaming.net:27015</p>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="gboard_text text-center">
+                    <h4 class="yl"><b>PARADISE GAMING #1 CASUAL/FUN 2.0 [!ws !knife !gloves !store]</b></h4>
+                    <h6><strong><b>Tickrate:</b></strong> 64tick | <strong><b>Top Jugadores</b></strong> |
+                        <strong><b>Obtener VIP</b></strong>
+                    </h6>
+                    <h6><strong><b>Mapas:</b></strong> de_dust2_night, de_dust2, de_dust2_old, de_nuke,
+                        de_mirage,
+                        de_mirage_night,
+                        de_inferno_night, awp_lego_2, aim_redline, de_tuscan, de_gold_dust2,
+                        mg_lego_multigames_v2, mg_SWAG_multigames_v2_1, de_aztec_classic, de_nuke_classic</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- Surf/kill content -->
+        <div class="tab-pane fade" id="pills-cs2" role="tabpanel" aria-labelledby="pills-cs2-tab">
+            <div class="gameboard">
+                <div class="gboard">
+                    <div class="gmode">
+                        <img src="images/surf.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="player">
+                        <div class="player_info d-flex align-items-center">
+                            <img src="images/user.png" class="img-fluid" alt="">
+                            <p>32/32</p>
+                        </div>
+                        <div class="map player_info d-flex align-items-center">
+                            <img src="images/map.png" class="img-fluid" alt="">
+                            <p>SURF_SKI_2</p>
+                        </div>
+                    </div>
+                    <div class="gamesave">
+                        <h4>surf/kill</h4>
+                    </div>
+                    <div class="playgame">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <p>surf.paradisegaming.net:27016</p>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="gboard_text text-center">
+                    <h4 class="yl"><b>PARADISE GAMING #2 SURF/KILL 2.0 [!ws !knife !gloves !store]</b></h4>
+                    <h6><strong><b>Tickrate:</b></strong> 64tick | <strong><b>Top Jugadores</b></strong> |
+                        <strong><b>Obtener VIP</b></strong>
+                    </h6>
+                    <h6><strong><b>Mapas:</b></strong> surf_ski_2, surf_utopia_v3, surf_ski_2_go, surf_summer,
+                        surf_beginner, surf_mesa_fix, surf_summer, surf_rebel, surf_rookie, surf_temple_final,
+                        surf_japan_v2, surf_nyx, surf_andromeda</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- zombie escape tab content -->
+        <div class="tab-pane fade" id="pills-cs3" role="tabpanel" aria-labelledby="pills-cs3-tab">
+            <div class="gameboard">
+                <div class="gboard">
+                    <div class="gmode">
+                        <img src="images/surf.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="player">
+                        <div class="player_info d-flex align-items-center">
+                            <img src="images/user.png" class="img-fluid" alt="">
+                            <p>32/32</p>
+                        </div>
+                        <div class="map player_info  d-flex align-items-center">
+                            <img src="images/map.png" class="img-fluid" alt="">
+                            <p class="zmes">ze_pirates_port_royal_v5_6</p>
+                            <p class="zmessh">ze_pirates...</p>
+                        </div>
+                    </div>
+                    <div class="gamesave">
+                        <h4>zombie escape</h4>
+                    </div>
+                    <div class="playgame">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <p>ze.paradisegaming.net:27017</p>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="gboard_text text-center">
+                    <h4 class="yl"><b>PARADISE GAMING #3 ZOMBIE ESCAPE [!ws !knife !gloves !store]</b></h4>
+                    <h6><strong><b>Tickrate:</b></strong> 64tick | <strong><b>Top Jugadores</b></strong> |
+                        <strong><b>Obtener VIP</b></strong>
+                    </h6>
+                    <h6><strong><b>Mapas:</b></strong> ze_pirates_port_royal_v5_6, ze_squid_game_v1,
+                        ze_world_escapes_v1, ze_nuke_p3, ze_moon_base_p3, ze_survivors_p2, ze_best_korea_v1</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- arena 1v1 tab content -->
+        <div class="tab-pane fade" id="pills-cs4" role="tabpanel" aria-labelledby="pills-cs4-tab">
+            <div class="gameboard">
+                <div class="gboard">
+                    <div class="gmode">
+                        <img src="images/Arena1v1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="player">
+                        <div class="player_info d-flex align-items-center">
+                            <img src="images/user.png" class="img-fluid" alt="">
+                            <p>24/24</p>
+                        </div>
+                        <div class="map player_info d-flex align-items-center">
+                            <img src="images/map.png" class="img-fluid" alt="">
+                            <p class="zmes">am_minecraft_valley</p>
+                            <p class="zmessh">am_minec...</p>
+                        </div>
+                    </div>
+                    <div class="gamesave">
+                        <h4>arena 1v1</h4>
+                    </div>
+                    <div class="playgame">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <p>1v1.paradisegaming.net:27018</p>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="gboard_text text-center">
+                    <h4 class="yl"><b>PARADISE GAMING #4 ARENA 1V1 128tk [!ws !knife !gloves !store]</b></h4>
+                    <h6><strong><b>Tickrate:</b></strong> 128tick | <strong><b>Top Jugadores</b></strong> |
+                        <strong><b>Obtener VIP</b></strong>
+                    </h6>
+                    <h6><strong><b>Mapas:</b></strong> am_dd2_short, am_redline, am_water, am_desert2,
+                        am_warehouse2, am_grass2, am_skybound, am_minecraft_valley, am_ancient_fbhdr,
+                        am_old_banana_40, am_redline_7kt_v2</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- retake tab content -->
+        <div class="tab-pane fade" id="pills-cs5" role="tabpanel" aria-labelledby="pills-cs5-tab">
+            <div class="gameboard">
+                <div class="gboard">
+                    <div class="gmode">
+                        <img src="images/retake.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="player">
+                        <div class="player_info d-flex align-items-center">
+                            <img src="images/user.png" class="img-fluid" alt="">
+                            <p>6/10</p>
+                        </div>
+                        <div class="map player_info d-flex align-items-center">
+                            <img src="images/map.png" class="img-fluid" alt="">
+                            <p>de_mirage</p>
+                        </div>
+                    </div>
+                    <div class="gamesave">
+                        <h4>retake </h4>
+                    </div>
+                    <div class="playgame">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <p>retake.paradisegaming.net:27019</p>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="gboard_text text-center">
+                    <h4 class="yl"><b>PARADISE GAMING #5 RETAKE 128tk [!ws !knife !gloves !store]</b></h4>
+                    <h6><strong><b>Tickrate:</b></strong> 28tick | <strong><b>Top Jugadores</b></strong> |
+                        <strong><b>Obtener VIP</b></strong>
+                    </h6>
+                    <h6><strong><b>Mapas:</b></strong> de_dust2, de_inferno, de_mirage, de_vertigo, de_overpass,
+                        de_train, de_cache
+                    </h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- automix tab content -->
+        <div class="tab-pane fade" id="pills-cs6" role="tabpanel" aria-labelledby="pills-cs6-tab">
+            <div class="gameboard">
+                <div class="gboard">
+                    <div class="gmode">
+                        <img src="images/automix.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="player">
+                        <div class="player_info d-flex align-items-center">
+                            <img src="images/user.png" class="img-fluid" alt="">
+                            <p>6/12</p>
+                        </div>
+                        <div class="map player_info d-flex align-items-center">
+                            <img src="images/map.png" class="img-fluid" alt="">
+                            <p>de_mirage</p>
+                        </div>
+                    </div>
+                    <div class="gamesave">
+                        <h4>Automix</h4>
+                    </div>
+                    <div class="playgame">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <p>automix.paradisegaming.net:27020</p>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="gboard_text text-center">
+                    <h4 class="yl"><b>PARADISE GAMING #6 AUTOMIX 128tk [!ws !knife !gloves !store]</b></h4>
+                    <h6><strong><b>Tickrate:</b></strong> 128tick | <strong><b>Top Jugadores</b></strong> |
+                        <strong><b>Obtener VIP</b></strong>
+                    </h6>
+                    <h6><strong><b>Mapas:</b></strong> de_dust2, de_inferno, de_mirage, de_vertigo, de_overpass,
+                        de_train, de_cache
+
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
