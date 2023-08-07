@@ -174,7 +174,7 @@ p {
 marquee {
     background: linear-gradient(rgba(255, 255, 255, 0.204) 0%, rgba(0, 0, 0, 0) 100%);
     backdrop-filter: blur(10px);
-    border: 0.5px solid rgba(255, 255, 255, 0.17);
+    border: 2.2px solid rgba(255, 255, 255, 0.17);
     margin-top: -43px;
     transform: rotate(-2deg);
 }
@@ -581,12 +581,12 @@ marquee {
     margin-bottom: 15px;
 }
 
-option{
+option {
     background-color: #1b0632bd;
     color: #fff;
 }
 
-option:hover{
+option:hover {
     background-color: #1B0632;
 }
 
@@ -695,8 +695,9 @@ option:hover{
 }
 
 .footer {
-    background: url("../images/Footer.png") center bottom / cover no-repeat;
+    /* background: url("../images/Footer.png") center bottom / cover no-repeat; */
     padding: 50px 0px;
+    border-top: 1px solid var(--cs-bgwh)
 }
 
 .agency {
