@@ -92,6 +92,7 @@ p {
 .btn-all:hover {
     background-color: rgb(108, 71, 150);
     color: var(--cs-wh);
+    border: 0.5px solid transparent;
 }
 
 .c-60 {
@@ -579,6 +580,23 @@ marquee {
     border: 0.5px solid rgba(255, 255, 255, 0.32);
     margin-bottom: 15px;
 }
+
+option{
+    background-color: #1b0632bd;
+    color: #fff;
+}
+
+option:hover{
+    background-color: #1B0632;
+}
+
+
+
+.namebox select option:hover {
+    background-color: var(--cs-primary);
+}
+
+
 
 .contact_form input {
     margin-bottom: 15px;
