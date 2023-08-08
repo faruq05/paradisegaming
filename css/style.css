@@ -29,6 +29,7 @@ a {
     --cs-wh: #fff;
     --cs-primary: #1B0632;
     --cs-bgwh: #ffffff20;
+    --cs-txt:#737373;
 }
 
 h1 {
@@ -150,6 +151,10 @@ p {
     min-height: 100vh;
 }
 
+.hero_image img{
+    
+}
+
 .hero .row {
     min-height: 100vh;
     align-items: center;
@@ -174,7 +179,7 @@ p {
 marquee {
     background: linear-gradient(rgba(255, 255, 255, 0.204) 0%, rgba(0, 0, 0, 0) 100%);
     backdrop-filter: blur(10px);
-    border: 2.2px solid rgba(255, 255, 255, 0.17);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.17);
     margin-top: -43px;
     transform: rotate(-2deg);
 }
@@ -394,6 +399,7 @@ marquee {
 
 .gamesave h4 {
     text-transform: uppercase;
+    text-align: center;
 }
 
 .playgame i {
@@ -579,6 +585,7 @@ marquee {
     background-color: var(--cs-bgwh);
     border: 0.5px solid rgba(255, 255, 255, 0.32);
     margin-bottom: 15px;
+    color: var(--cs-txt);
 }
 
 option {
@@ -590,8 +597,6 @@ option:hover {
     background-color: #1B0632;
 }
 
-
-
 .namebox select option:hover {
     background-color: var(--cs-primary);
 }
@@ -601,6 +606,7 @@ option:hover {
 .contact_form input {
     margin-bottom: 15px;
     border-radius: 8px;
+    color: var(--cs-txt);
 }
 
 .contact_form textarea {
@@ -608,10 +614,11 @@ option:hover {
     border: 0.5px solid rgba(255, 255, 255, 0.32);
     margin-bottom: 40px;
     border-radius: 8px;
+    color: var(--cs-txt);
 }
 
 .form-control:focus {
-    color: rgb(33, 37, 41);
+    color: var(--cs-txt);
     background-color: var(--cs-bgwh);
     border: 0.5px solid var(--cs-bgwh);
     outline: 0px;
