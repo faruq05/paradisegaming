@@ -496,10 +496,10 @@
 
     .cta_content h4 {
         font-size: 35px;
+        text-align: center;
     }
 
-    .cta_content h4,
-    p,
+    .cta_content p,
     a {
         text-align: center;
     }
@@ -670,7 +670,7 @@
     .count {
         display: flex;
         justify-content: space-evenly;
-        width: 70%;
+        width: 90%;
     }
 
     .cbox {
@@ -845,10 +845,20 @@
     .zmessh {
         display: block;
     }
+
+    .flinks {
+        justify-content: center;
+    }
 }
 
 
 @media(max-width:320px) {
+
+    .count p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
     .newsbox {
         height: 460px;
         padding: 15px;
