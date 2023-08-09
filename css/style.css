@@ -29,7 +29,7 @@ a {
     --cs-wh: #fff;
     --cs-primary: #1B0632;
     --cs-bgwh: #ffffff20;
-    --cs-txt:#737373;
+    --cs-txt: #737373;
 }
 
 h1 {
@@ -149,10 +149,6 @@ p {
     background-repeat: no-repeat;
     background-size: 53%;
     min-height: 100vh;
-}
-
-.hero_image img{
-    
 }
 
 .hero .row {
@@ -504,6 +500,25 @@ marquee {
 
 .influ_tab img {
     border-radius: 30px;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.box img {
+    width: 100%;
+    display: block;
+}
+
+.box img:nth-child(1) {
+    position: absolute;
+}
+
+.box img:nth-child(2) {
+    opacity: 0;
 }
 
 .influ_social {
