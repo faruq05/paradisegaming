@@ -173,10 +173,12 @@ p {
     text-align: center;
 }
 
+
 marquee {
-    background: linear-gradient(rgba(255, 255, 255, 0.204) 0%, rgba(0, 0, 0, 0) 100%);
-    backdrop-filter: blur(10px);
-    margin-top: -43px;
+    background: rgba( 255, 255, 255, 0.1 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
     transform: rotate(-2deg);
 }
 
