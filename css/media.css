@@ -283,7 +283,6 @@
 
     .partner_badge img {
         width: 17%;
-        margin-right: 10px;
         margin-bottom: 10px;
     }
 
@@ -777,6 +776,7 @@
     .partner_badge img {
         width: 55%;
         margin-bottom: 10px;
+        margin: auto;
     }
 
     .contact h3 {

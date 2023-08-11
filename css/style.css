@@ -97,6 +97,12 @@ p {
     border: none;
 }
 
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
 .c-60 {
     padding: 60px 0px;
 }
@@ -140,6 +146,10 @@ p {
     color: var(--cs-wh);
 }
 
+.navbar-nav>.active>a {
+    color: red;
+}
+
 .hero {
     background-image: url("../images/Ellipse 2.png");
     background-attachment: initial;
@@ -153,12 +163,12 @@ p {
 }
 
 .hero .row {
-    min-height: 100vh;
+    min-height: 95vh;
     align-items: center;
 }
 
 .hero_button {
-    margin: 20px 0px 60px;
+    margin: 40px 0px 60px 0px;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -174,11 +184,13 @@ p {
 }
 
 marquee {
+    white-space: nowrap;
     background: linear-gradient(rgba(255, 255, 255, 0.204) 0%, rgba(0, 0, 0, 0) 100%);
     backdrop-filter: blur(10px);
     margin-top: -43px;
     transform: rotate(-2deg);
 }
+
 
 .cbox2 {
     display: none;
@@ -353,6 +365,7 @@ marquee {
 
 .gboard {
     position: relative;
+
 }
 
 .gmode img {
@@ -378,7 +391,7 @@ marquee {
     border-radius: 30px;
     border: 0.5px solid rgba(255, 255, 255, 0.12);
     box-shadow: rgba(0, 0, 0, 0.32) 1px 6px 13px 0px;
-    width: 70%;
+    width: 75%;
     position: absolute;
     bottom: 10%;
     left: 50%;
@@ -562,9 +575,10 @@ marquee {
     justify-content: center;
 }
 
+
 .partner_badge img {
-    margin-right: 10px;
     width: 80% !important;
+    margin: auto;
 }
 
 .badge_carousel .owl-stage {
@@ -726,6 +740,15 @@ option:hover {
 .footer_items li {
     list-style: none;
     margin-bottom: 15px;
+
+}
+
+.footer_items li a {
+    transition: .2s all ease-in-out, .2s all ease-in-out;
+}
+
+.footer_items li a:hover {
+    color: var(--cs-yl);
 }
 
 .footer_items li h6 {
@@ -742,7 +765,7 @@ option:hover {
 
 .footer {
     background: url("../images/Footer.png") center bottom / cover no-repeat;
-    padding: 50px 0px;
+    padding: 22px 0px;
     border-top: 1px solid var(--cs-bgwh)
 }
 
