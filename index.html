@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Paradise Gaming</title>
-
 </head>
 
 <body>
@@ -45,7 +44,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 wow fadeInRight " data-wow-duration="2s">
                             <li class="nav-item active">
-                                <a class="nav-link " href="index.html">INICO</a>
+                                <a class="nav-link" href="index.html">INICIO</a>
                             </li>
 
                             <li class="nav-item dropdown">
@@ -54,13 +53,17 @@
                                     GAMING
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="reglas.html">Gaming</a></li>
+                                    <!-- <li><a class="dropdown-item" href="reglas.html">Gaming</a></li>
                                     <li><a class="dropdown-item" href="reglas_csgo.html">CSGO</a></li>
                                     <li><a class="dropdown-item" href="reglas_rust.html">Rust</a></li>
                                     <li><a class="dropdown-item" href="reglas_tf2.html">TF2</a></li>
                                     <li><a class="dropdown-item" href="reglas_fivem.html">Fivem</a></li>
-                                    <li><a class="dropdown-item" href="reglas_gmod.html">GMOD</a></li>
-
+                                    <li><a class="dropdown-item" href="reglas_gmod.html">GMOD</a></li> -->
+                                    <li><a class="dropdown-item" href="servidores.html">Servidores</a></li>
+                                    <li><a class="dropdown-item" href="servidores_staff.html">Staff</a></li>
+                                    <li><a class="dropdown-item" href="reglas.html">Reglas</a></li>
+                                    <li><a class="dropdown-item" href="#">VIP</a></li>
+                                    <li><a class="dropdown-item" href="#">Recompensas</a></li>
                                 </ul>
                             </li>
 
@@ -69,7 +72,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="agencia.html">AGENCIA</a>
+                                <a class="nav-link act" href="agencia.html">AGENCIA</a>
                             </li>
 
                             <li class="nav-item">
@@ -79,15 +82,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">CONTACTO</a>
                             </li>
+
                         </ul>
-                        <script>
-                            $(document).ready(function () {
-                                $("ul.navbar-nav > li").click(function (e) {
-                                    $("ul.navbar-nav > li").removeClass("active");
-                                    $(this).addClass("active");
-                                });
-                            });
-                        </script>
+
                     </div>
                 </div>
             </nav>
@@ -100,18 +97,9 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="hero_content">
-                        <!-- <div class="tt-holder">
-                            <p class="tt"><span class="yl">quedarte</span></p>
-                            <p class="tt"><span class="yl">Conectar</span></p>
-                            <p class="tt"><span class="yl">Jugar</span></p>
-                            <p class="tt"><span class="yl">Crecer</span></p>
-                            <p class="tt"><span class="yl">Aprender</span></p>
-
-
-                            <h1 class="ttt"></h1>
-                        </div> -->
-                        <h1 class="wow fadeInUp" data-wow-duration="2s">somos tu <br> lugar para <br> <span
-                                class="yl">quedarte</span></h1> <br>
+                        <h1 class="wow fadeInUp" data-wow-duration="2s">somos tu <br> lugar para <br>
+                            <span class="typed-text"></span><span class="cursor blink">&nbsp;</span>
+                        </h1> <br>
                         <p class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">Somos una empresa y
                             comunidad comprometida con el
                             <br> mundo del Gaming creada para ofrecerte
@@ -1065,13 +1053,34 @@
             </div>
         </div>
 
+        
+        <!-- partner -->
+
+        <div class="container-fluid">
+            <div class="row partner c-60">
+                <div class="col-md-12 text-center">
+                    <h2 class="wow fadeInUp" data-wow-duration="2s">nuestros <span class="yl">partners</span></h2>
+                </div>
+                <div class="col-md-12">
+                    <div class="partner_badge owl-carousel badge_carousel wow fadeInUp" data-wow-duration="2s"
+                        data-wow-delay=".5s">
+                        <img src="images/1xbet 1.png" class="img-fluid" alt="">
+                        <img src="images/cbet 1.png" class="img-fluid" alt="">
+                        <img src="images/Wintomato.png" class="img-fluid" alt="">
+                        <img src="images/Roobet 1.png" class="img-fluid" alt="">
+                        <img src="images/Roletto 1.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- faq -->
         <div class="container">
-            <div class="row c-60">
+            <div class="row ">
                 <div class="col-md-12">
                     <div class="faq">
-                        <h2 class="text-center mb-4">PREGUNTAS <br><span class="yl">FRECUENTES</span></h2>
-                        <div class="accordion" id="accordionExample">
+                        <h2 class="text-center mb-4 wow fadeInUp" data-wow-duration="2s">PREGUNTAS <br><span class="yl">FRECUENTES</span></h2>
+                        <div class="accordion wow fadeInDown" data-wow-duration="2s" data-wow-delay=".2s" id="accordionExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -1079,8 +1088,8 @@
                                         ¿Qué es Paradise Gaming?
                                     </button>
                                 </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse "
-                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         Es una marca registrada dedicada al entretenimiento en línea y manejo de
                                         influencers, perteneciente a la empresa Paradise Host S.A. Podés encontrar más
@@ -1164,13 +1173,12 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingSix">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseSix" aria-expanded="false"
-                                        aria-controls="collapseSix">
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                         ¿Cómo puedo unirme al Staff de Paradise Gaming?
                                     </button>
                                 </h2>
-                                <div id="collapseSix" class="accordion-collapse collapse"
-                                    aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         Nuestro staff está compuesto por expertos entusiastas de los videojuegos que
                                         comparten una pasión por brindar apoyo y asistencia a nuestros jugadores y
@@ -1186,25 +1194,6 @@
             </div>
         </div>
 
-        <!-- partner -->
-
-        <div class="container-fluid">
-            <div class="row partner c-60">
-                <div class="col-md-12 text-center">
-                    <h2 class="wow fadeInUp" data-wow-duration="2s">nuestros <span class="yl">partners</span></h2>
-                </div>
-                <div class="col-md-12">
-                    <div class="partner_badge owl-carousel badge_carousel wow fadeInUp" data-wow-duration="2s"
-                        data-wow-delay=".5s">
-                        <img src="images/1xbet 1.png" class="img-fluid" alt="">
-                        <img src="images/cbet 1.png" class="img-fluid" alt="">
-                        <img src="images/Wintomato.png" class="img-fluid" alt="">
-                        <img src="images/Roobet 1.png" class="img-fluid" alt="">
-                        <img src="images/Roletto 1.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- contact  -->
         <div class="container">
@@ -1390,7 +1379,7 @@
                     <div class="col-md-12 mt-4">
                         <p class="wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">Copyright 2023® | Todos los
                             derechos reservados - Paradise Host S.A. | Sitio alojado por
-                            ParadiseHost® & desarrollada por ParadiseDev®</p>
+                            ParadiseHost® & desarrollado por ParadiseDev®</p>
                     </div>
                 </div>
             </div>
@@ -1409,8 +1398,7 @@
     <script src="js/wow.min.js"></script>
     <script src="js/counter.js"></script>
     <script src="js/image_hover.js"></script>
-    <script src="js/index.js"></script>
-    <script src="js/index.min.js"></script>
+    <script src="js/type_effect.js"></script>
     <script>
         //owl-carousel
         $(document).ready(function () {
@@ -1520,27 +1508,6 @@
         // wow js
         new WOW().init();
 
-        //typer_writer
-        // const vis = (function () {
-        //     let stateKey,
-        //         eventKey,
-        //         keys = {
-        //             hidden: "visibilitychange",
-        //             webkitHidden: "webkitvisibilitychange",
-        //             mozHidden: "mozvisibilitychange",
-        //             msHidden: "msvisibilitychange"
-        //         };
-        //     for (stateKey in keys) {
-        //         if (stateKey in document) {
-        //             eventKey = keys[stateKey];
-        //             break;
-        //         }
-        //     }
-        //     return function (c) {
-        //         if (c) document.addEventListener(eventKey, c);
-        //         return !document[stateKey];
-        //     }
-        // })();
 
         // tickerText(contents, keep, seconds, delay = 20, iterations = 0, ratio, secondsout, dev = false, pausetarget, stoptarget);
         // let $elements = $(".tt-holder .tt");

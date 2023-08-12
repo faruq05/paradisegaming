@@ -146,9 +146,10 @@ p {
     color: var(--cs-wh);
 }
 
-.navbar-nav>.active>a {
-    color: red;
+#header .navbar-nav li.active>a {
+    font-weight: 600;
 }
+
 
 .hero {
     background-image: url("../images/Ellipse 2.png");
@@ -167,9 +168,7 @@ p {
     align-items: center;
 }
 
-.tt {
-    display: none;
-}
+
 
 .hero_button {
     margin: 40px 0px 60px 0px;
@@ -185,6 +184,34 @@ p {
 
 .counter {
     text-align: center;
+}
+
+.typed-text {
+    color: var(--cs-yl);
+}
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    margin-left: 4px;
+    background: var(--teal);
+}
+
+.cursor.blink {
+    animation: blink 0.8s ease-in-out infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        background: var(--teal);
+    }
+
+    40%,
+    50% {
+        background: transparent;
+    }
 }
 
 
@@ -576,24 +603,38 @@ marquee {
     font-size: 25px;
 }
 
+.faq {
+    padding: 0px 0px 60px 0px;
+}
+
 .accordion-item {
-    background-color: var(--cs-bgwh);
-    border: 1px solid transparent;
+    background-color: transparent;
+    border: 1px solid var(--cs-bgwh);
     color: var(--cs-wh);
     font-size: 18px;
 }
 
+.accordion-item:first-of-type {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.accordion-item:last-of-type {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 .accordion-button {
     font-size: 20px;
-    padding: 20px 10px;
+    padding: 20px;
     color: var(--cs-wh);
-    background-color: var(--cs-primary);
+    background-color: transparent;
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
 }
 
 .accordion-button:not(.collapsed) {
     color: var(--cs-yl);
-    background-color: var(--cs-primary);
+    background-color: transparent;
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
 }
 
@@ -947,6 +988,15 @@ option:hover {
     font-size: 19px;
     list-style: inside decimal;
     margin-bottom: 5px;
+}
+
+.reg_button a img {
+    opacity: 0.2;
+    transition: .2s all ease-in-out, .2s all ease-in-out;
+}
+
+.reg_button a img:hover {
+    opacity: 1;
 }
 
 .server_content p {
