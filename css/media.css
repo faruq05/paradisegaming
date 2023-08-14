@@ -548,21 +548,29 @@
         margin-top: 0;
     }
 
+    .footer_des{
+        text-align: center;
+    }
+
     .footer_des p {
         font-size: 14px;
         text-align: left;
         margin: 10px 0px;
     }
 
+    .flinks{
+        justify-content: center;
+    }
+
     .flinks li a i {
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .flinks li {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         border: 1px solid var(--cs-wh);
-        margin-right: 10px;
+        margin: 5px;
     }
 
     .footer_items {
