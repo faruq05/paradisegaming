@@ -567,6 +567,7 @@
 
     .footer_items {
         margin-top: 25px;
+        text-align: center;
     }
 
     .agency {
@@ -604,7 +605,7 @@
     }
 
     h2 {
-        font-size: 29px;
+        font-size: 28px;
     }
 
     h3 {
@@ -645,6 +646,10 @@
     .navbar-light .navbar-nav .nav-link {
         padding: 0;
         margin-bottom: 10px;
+    }
+
+    .p575{
+        padding: 0px 30px;
     }
 
     .hero {
@@ -804,18 +809,19 @@
     }
 
     .flinks li a i {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .flinks li {
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
         border: 1px solid var(--cs-wh);
-        margin-right: 5px;
+        margin: 5px;
     }
 
     .footer_items {
         margin-top: 25px;
+        text-align: center;
     }
 
     .staff_button {
@@ -846,8 +852,13 @@
         display: block;
     }
 
+    .footer{
+        padding: 22px 15px;
+    }
+
     .flinks {
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     .accordion-button {
@@ -858,10 +869,21 @@
     .accordion-item {
         font-size: 16px;
     }
+
+
 }
 
 
 @media(max-width:320px) {
+
+    .p575{
+        padding: 0px 15px;
+    }
+
+    .influ_tab {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
     .count p {
         font-size: 14px;

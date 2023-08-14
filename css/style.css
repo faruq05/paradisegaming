@@ -137,6 +137,7 @@ p {
     position: absolute;
     width: 100%;
     padding: 15px 0px;
+    z-index: 100;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -156,7 +157,7 @@ p {
 }
 
 .dropdown-menu {
-    background-color: rgba(27, 6, 50, 0.37);
+    background-color: rgb(27 6 50 / 96%);
     border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -166,6 +167,19 @@ p {
 
 .dropdown-item:hover {
     color: rgb(0, 0, 0) !important;
+}
+
+.dropdown-item:focus {
+    background-color: var(--cs-bgwh);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+     background-color: var(--cs-bgwh);
+     color: var(--cs-wh);
+}
+
+.dropdown-item.active:hover {
+    color: var(--cs-wh)!important;
 }
 
 .navbar-icon i {
@@ -368,7 +382,7 @@ marquee {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    background-color: rgba(255, 255, 255, 0.329);
+    background-color: rgba(255, 255, 255, 0.17);
     border-radius: 30px 20px;
     width: auto;
     padding: 20px 40px;
@@ -448,8 +462,8 @@ marquee {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: linear-gradient(rgba(255, 255, 255, 0.29) 0%, rgba(0, 0, 0, 0) 100%);
-    backdrop-filter: blur(3px);
+    /* background: linear-gradient(rgba(255, 255, 255, 0.29) 0%, rgba(0, 0, 0, 0) 100%); */
+    /* backdrop-filter: blur(3px); */
     border-radius: 30px;
     border: 0.5px solid rgba(255, 255, 255, 0.12);
     box-shadow: rgba(0, 0, 0, 0.32) 1px 6px 13px 0px;
@@ -539,7 +553,10 @@ marquee {
     padding: 20px 40px;
 }
 
-.cta_image {}
+
+#vip{
+    padding-top: 60px;
+}
 
 .cta_image img {
     margin-top: -130px;
@@ -1139,9 +1156,6 @@ option:hover {
     justify-content: center;
 }
 
-.btn-stf:hover {
-    background-color: rgba(236, 236, 236, 0.718);
-}
 
 .serv_stf {
     background-image: url("../images/Ellipse 2.png");
@@ -1230,4 +1244,8 @@ option:hover {
     background-position: right top, left center, right bottom;
     background-repeat: no-repeat;
     background-size: 63%, 60%, 46%;
+}
+
+.servidores_cta2{
+    margin-top: 100px;
 }
