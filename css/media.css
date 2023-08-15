@@ -335,7 +335,8 @@
     }
 
     .brand_image img {
-        width: 30%;
+        width: 100%;
+        margin: 10px;
     }
 
     .serv_gmod .cta {
