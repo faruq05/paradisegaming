@@ -550,7 +550,7 @@ marquee {
     border: 0.5px solid var(--cs-bgwh);
     border-radius: 30px;
     margin-top: 80px;
-    padding: 20px 40px;
+    padding: 40px;
 }
 
 
@@ -1182,6 +1182,7 @@ option:hover {
 }
 
 .adminismods {
+    padding-top: 60px;
     padding-bottom: 0px;
     background-position: left bottom, right top;
 }
@@ -1223,6 +1224,8 @@ option:hover {
     background-repeat: no-repeat;
     background-size: 47%;
 }
+
+
 
 .serv_tf2 {
     background-image: url("../images/Ellipse 4.png");

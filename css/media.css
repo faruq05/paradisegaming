@@ -12,6 +12,19 @@
     .cta_image img {
         margin-top: 0px;
     }
+
+    .serv_gboard{
+        width: 70%;
+        margin: auto;
+    }
+
+    .servidores_cta2 {
+        margin-top: 0;
+    }
+    .staff_button {
+        display: flex;
+        margin-bottom: 0;
+    }
 }
 
 @media(max-width:1024px) {
@@ -94,6 +107,11 @@
 
     .playgame {
         width: 90%;
+    }
+
+    .serv_gboard{
+        width: 100%;
+        margin: auto;
     }
 
 }
