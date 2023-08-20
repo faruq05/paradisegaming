@@ -80,7 +80,7 @@ p {
 }
 
 .btn-all {
-    background-color: rgba(255, 255, 255, 0.17);
+    background-color: rgba(255, 255, 255, 0.05);
     border-radius: 30px 20px;
     width: auto;
     padding: 15px 35px;
@@ -173,13 +173,14 @@ p {
     background-color: var(--cs-bgwh);
 }
 
-.dropdown-item.active, .dropdown-item:active {
-     background-color: var(--cs-bgwh);
-     color: var(--cs-wh);
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: var(--cs-bgwh);
+    color: var(--cs-wh);
 }
 
 .dropdown-item.active:hover {
-    color: var(--cs-wh)!important;
+    color: var(--cs-wh) !important;
 }
 
 .navbar-icon i {
@@ -260,7 +261,7 @@ marquee {
     background: linear-gradient(rgba(255, 255, 255, 0.204) 0%, rgba(0, 0, 0, 0) 100%);
     backdrop-filter: blur(10px);
     margin-top: -43px;
-    background: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-radius: 10px;
@@ -336,7 +337,7 @@ marquee {
 }
 
 .newsbox {
-    background-color: var(--cs-bgwh);
+    /* background-color: var(--cs-bgwh); */
     border: .5px solid var(--cs-bgwh);
     padding: 25px;
     border-radius: 15px;
@@ -382,7 +383,8 @@ marquee {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    background-color: rgba(255, 255, 255, 0.17);
+    background-color: rgb(108, 71, 150);
+    /* background-color: rgba(255, 255, 255, 0.05); */
     border-radius: 30px 20px;
     width: auto;
     padding: 20px 40px;
@@ -524,7 +526,7 @@ marquee {
     height: 12px;
     border-radius: 50px;
     background-color: var(--cs-wh);
-    margin-right: 10px;
+    margin: 5px;
 }
 
 .game_carousel .owl-dots .active span {
@@ -546,7 +548,7 @@ marquee {
 }
 
 .cta {
-    background-color: var(--cs-bgwh);
+    /* background-color: var(--cs-bgwh); */
     border: 0.5px solid var(--cs-bgwh);
     border-radius: 30px;
     margin-top: 80px;
@@ -554,7 +556,7 @@ marquee {
 }
 
 
-#vip{
+#vip {
     padding-top: 60px;
 }
 
@@ -589,7 +591,6 @@ marquee {
 }
 
 .influ_tab {
-    background-color: var(--cs-bgwh);
     border: .5px solid var(--cs-bgwh);
     border-radius: 30px;
     padding: 20px;
@@ -720,7 +721,7 @@ marquee {
 }
 
 .contact {
-    background-color: var(--cs-bgwh);
+    /* background-color: var(--cs-bgwh); */
     border: .5px solid var(--cs-bgwh);
     border-radius: 30px;
     padding: 30px;
@@ -832,6 +833,10 @@ option:hover {
 .footer_des p {
     font-size: 17px;
     margin: 10px 0px;
+}
+
+.footer p {
+    font-size: 16px;
 }
 
 .flinks {
@@ -1042,6 +1047,10 @@ option:hover {
     opacity: 1;
 }
 
+.active2 a img{
+    opacity: 1;
+}
+
 .server_content p {
     margin: 20px 0px;
     font-weight: 500;
@@ -1249,6 +1258,99 @@ option:hover {
     background-size: 63%, 60%, 46%;
 }
 
-.servidores_cta2{
+.servidores_cta2 {
     margin-top: 100px;
+}
+
+/* vip pages */
+.vip_agency_count {
+    width: 35%;
+}
+
+.price_board {
+    border-radius: 30px;
+    border: 1px solid #FFFFFF33;
+    padding: 0;
+    box-shadow: 0px 4px 20px -1px #00000000;
+    margin-bottom: 25px;
+}
+
+.price_des {
+    padding: 30px;
+    background: linear-gradient(180deg, rgb(255 255 255 / 2%) 0%, rgb(217 217 217 / 0%) 100%),
+        linear-gradient(0deg, rgb(255 255 255 / 0%), rgb(255 255 255 / 3%));
+    border-radius: 30px 30px 0px 0px;
+}
+
+.price_des h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.price_des ul li {
+    list-style: inside;
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--cs-wh);
+    margin-top: 10px;
+}
+
+.price_des ul li span {
+    font-weight: 600;
+}
+
+.price h4 {
+    background: #FFFFFF1A;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pr_btn {
+    padding: 20px;
+    text-align: center;
+}
+
+.comando {
+    background: linear-gradient(180deg, rgb(255 255 255 / 2%) 0%, rgb(217 217 217 / 0%) 100%),
+        linear-gradient(0deg, rgb(255 255 255 / 0%), rgb(255 255 255 / 3%));
+    border: 1px solid #FFFFFF33;
+    box-shadow: 0px 4px 20px -1px #00000000;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.clist {}
+
+.comando h3 {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.com_list {}
+
+.com_list li {
+    font-size: 19px;
+    list-style: inside;
+    color: var(--cs-wh);
+    font-weight: 600;
+}
+
+.cimg {}
+
+.cimg img {}
+
+.yl2{
+    color: #FFCD1C;
+}
+
+.kit_des p{
+    font-weight: 500;
+    margin: 20px 0px;
 }
