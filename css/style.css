@@ -6,7 +6,6 @@
 
 body {
     background-color: var(--cs-primary);
-
 }
 
 h1,
@@ -1047,7 +1046,7 @@ option:hover {
     opacity: 1;
 }
 
-.active2 a img{
+.active2 a img {
     opacity: 1;
 }
 
@@ -1346,11 +1345,15 @@ option:hover {
 
 .cimg img {}
 
-.yl2{
+.yl2 {
     color: #FFCD1C;
 }
 
-.kit_des p{
+.kit_des p {
     font-weight: 500;
     margin: 20px 0px;
+}
+
+.vip_gmod_img img {
+    border-radius: 30px;
 }

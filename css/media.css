@@ -13,7 +13,7 @@
         margin-top: 0px;
     }
 
-    .serv_gboard{
+    .serv_gboard {
         width: 70%;
         margin: auto;
     }
@@ -21,6 +21,7 @@
     .servidores_cta2 {
         margin-top: 0;
     }
+
     .staff_button {
         display: flex;
         margin-bottom: 0;
@@ -109,7 +110,7 @@
         width: 90%;
     }
 
-    .serv_gboard{
+    .serv_gboard {
         width: 100%;
         margin: auto;
     }
@@ -567,7 +568,7 @@
         margin-top: 0;
     }
 
-    .footer_des{
+    .footer_des {
         text-align: center;
     }
 
@@ -577,7 +578,7 @@
         margin: 10px 0px;
     }
 
-    .flinks{
+    .flinks {
         justify-content: center;
     }
 
@@ -675,7 +676,7 @@
         margin-bottom: 10px;
     }
 
-    .p575{
+    .p575 {
         padding: 0px 30px;
     }
 
@@ -879,7 +880,7 @@
         display: block;
     }
 
-    .footer{
+    .footer {
         padding: 22px 15px;
     }
 
@@ -897,13 +898,25 @@
         font-size: 16px;
     }
 
+    .price_des h3 {
+        font-size: 30px;
+    }
+
+    .comando {
+        padding: 20px;
+    }
+
+    .comando h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
 
 }
 
 
 @media(max-width:320px) {
 
-    .p575{
+    .p575 {
         padding: 0px 15px;
     }
 
