@@ -581,6 +581,10 @@
         margin-top: 0;
     }
 
+    .footer {
+        background: transparent
+    }
+
     .footer_des {
         text-align: center;
     }
