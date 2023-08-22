@@ -1316,10 +1316,10 @@ option:hover {
 }
 
 .btn-compar{
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
         linear-gradient(0deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14));
     border: 1px solid #FFFFFF33!important;
-    box-shadow: 0px 4px 4px 0px #00000040;
+    box-shadow: 0px 4px 4px 0px #00000040; */
     text-transform: uppercase;
 }
 
