@@ -110,12 +110,12 @@
                             <div class="hero_button">
                                 <a href="#" class="btn btn-all wow fadeInLeft" data-wow-duration="2s"
                                     data-wow-delay=".3s">TIENDA</a>
-                                <a href="#" class="btn btn-all wow fadeInRight" data-wow-duration="2s"
+                                <a href="#partner_slider" class="btn btn-all wow fadeInRight" data-wow-duration="2s"
                                     data-wow-delay=".3s">PARTNERS</a>
                             </div>
                             <div class="count wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
                                 <div class="counter">
-                                    <h3>+<span class="counting" data-count="17">0</span>.000
+                                    <h3>+<span class="counting-new" data-count="17">0</span>
                                     </h3>
                                     <p>Jugadores</p>
                                 </div>
@@ -228,11 +228,11 @@
             <div class="cbox2 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
                 <div class="hero_button">
                     <a href="#" class="btn btn-all">TIENDA</a>
-                    <a href="#" class="btn btn-all">PARTNERS</a>
+                    <a href="#partner_slider" class="btn btn-all">PARTNERS</a>
                 </div>
                 <div class="count wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
                     <div class="counter">
-                        <h3>+<span class="counting" data-count="17">0</span>.000
+                        <h3>+<span class="counting-new" data-count="17">0</span>
                         </h3>
                         <p>Jugadores</p>
                     </div>
@@ -1057,7 +1057,7 @@
 
         <!-- partner -->
 
-        <div class="container-fluid">
+        <div class="container-fluid" id="partner_slider">
             <div class="row partner c-60">
                 <div class="col-md-12 text-center">
                     <h2 class="wow fadeInUp" data-wow-duration="2s">nuestros <span class="yl">partners</span></h2>
@@ -1448,9 +1448,11 @@
                     smartSpeed: 500,
                     dotsEach: true,
                     nav: true,
+                    center: true,
                     // touchDrag: false,
                     margin: 5,
                     mouseDrag: false,
+                    responsiveClass:true,
                     responsive: {
                         0: {
                             items: 1,
@@ -1458,7 +1460,7 @@
                         425: {
                             items: 1,
                         },
-                        767: {
+                        680: {
                             items: 2,
                         },
                         768: {

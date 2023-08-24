@@ -644,6 +644,18 @@
     }
 }
 
+@media(max-width:679px) {
+    .game_carousel .owl-item.active.center {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .game_carousel .owl-item {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
 @media(max-width:575px) {
     h1 {
         font-size: 40px;
@@ -780,6 +792,16 @@
 
     .gameboard {
         width: 100%;
+    }
+
+    .game_carousel .owl-item.active.center {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .game_carousel .owl-item {
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
 
     .playgame {

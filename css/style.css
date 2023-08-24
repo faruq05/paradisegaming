@@ -209,7 +209,7 @@ p {
 }
 
 .hero_image .img-fluid {
-    max-width: 125%!important;
+    max-width: 125% !important;
     height: auto;
 }
 
@@ -510,6 +510,29 @@ marquee {
     display: none;
 }
 
+.game_carousel .owl-stage {
+    padding: 50px 0px;
+}
+
+.game_carousel .owl-item.active.center {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.game_carousel .owl-item.active.center .gameboard .gboard .gmode img{
+    filter: saturate(1);
+}
+
+.game_carousel .owl-item .gameboard .gboard .gmode img{
+  filter: saturate(0);
+}
+
+
+.game_carousel .owl-item {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
 .owl-carousel .owl-dots.disabled {
     display: flex;
 }
@@ -642,7 +665,7 @@ marquee {
 }
 
 .influ_social li:hover {
-    background-color: var(--cs-bgwh);
+    background-color: rgb(108, 71, 150);
 }
 
 .influ_social li a i {
@@ -862,7 +885,7 @@ option:hover {
 }
 
 .flinks li:hover {
-    background-color: var(--cs-bgwh);
+    background-color: rgb(108, 71, 150);
 }
 
 .flinks li a {
@@ -1315,7 +1338,7 @@ option:hover {
     text-align: center;
 }
 
-.btn-compar{
+.btn-compar {
     /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
         linear-gradient(0deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14));
     border: 1px solid #FFFFFF33!important;
@@ -1323,7 +1346,7 @@ option:hover {
     text-transform: uppercase;
 }
 
-.btn-compar i{
+.btn-compar i {
     font-size: 25px;
     margin-right: 10px;
 }
