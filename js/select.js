@@ -12,7 +12,8 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('.copy-link').click(function(e) {
     e.preventDefault(); // Prevent default hyperlink behavior
-    var textToCopy = $('#text-to-copy').text(); // Get the text to copy
+    var $associatedDiv = $($(this).data('target')); // Get the associated div using the 'data-target' attribute
+    var textToCopy = $associatedDiv.text().toUpperCase(); // Get the text and convert to uppercase
     var tempTextArea = $('<textarea>'); // Create a temporary textarea element
     $('body').append(tempTextArea); // Append it to the DOM
     tempTextArea.val(textToCopy).select(); // Set the value and select the text

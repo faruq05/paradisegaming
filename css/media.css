@@ -268,6 +268,10 @@
         width: 95%;
     }
 
+    .gamesave h4 {
+        font-size: 24px;
+    }
+
     .playgame {
         width: 95%;
     }
@@ -749,6 +753,10 @@
 
     .game_buttons {
         flex-wrap: wrap;
+    }
+
+    .gamesave h4 {
+        font-size: 24px;
     }
 
     .partner_badge {

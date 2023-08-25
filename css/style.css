@@ -498,6 +498,7 @@ marquee {
 .gamesave h4 {
     text-transform: uppercase;
     text-align: center;
+    font-size: 30px;
 }
 
 .playgame i {
@@ -530,7 +531,6 @@ marquee {
 .game_carousel .owl-item .gameboard .gboard .gmode img {
     filter: saturate(0);
 }
-
 
 .game_carousel .owl-item {
     -webkit-transform: scale(0.95);
