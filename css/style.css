@@ -1239,7 +1239,9 @@ option:hover {
     line-height: 32px;
 }
 
-.selected {}
+.selected .gmode img{
+    filter: brightness(50%);
+}
 
 
 .zmessh {
