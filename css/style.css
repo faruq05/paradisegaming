@@ -524,6 +524,7 @@ marquee {
 
 .game_carousel .owl-item.active.center .gameboard .gboard .gmode img {
     filter: saturate(1);
+    filter: brightness(70%);
 }
 
 .game_carousel .owl-item .gameboard .gboard .gmode img {
@@ -1237,6 +1238,9 @@ option:hover {
     color: var(--cs-wh);
     line-height: 32px;
 }
+
+.selected {}
+
 
 .zmessh {
     display: none;

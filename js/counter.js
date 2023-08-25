@@ -50,3 +50,4 @@ $('.counting-new').each(function () {
 
     });
 });
+
