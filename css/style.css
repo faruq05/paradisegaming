@@ -480,7 +480,9 @@ marquee {
 }
 
 .playgame p {
+    font-size: 17px;
     text-transform: uppercase;
+    text-shadow: 0 4px 4px #00000091;
 }
 
 .gamesave {
@@ -517,20 +519,22 @@ marquee {
 .game_carousel .owl-item.active.center {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    transition: .4s all ease-in-out, .4s all ease-in-out;
 }
 
-.game_carousel .owl-item.active.center .gameboard .gboard .gmode img{
+.game_carousel .owl-item.active.center .gameboard .gboard .gmode img {
     filter: saturate(1);
 }
 
-.game_carousel .owl-item .gameboard .gboard .gmode img{
-  filter: saturate(0);
+.game_carousel .owl-item .gameboard .gboard .gmode img {
+    filter: saturate(0);
 }
 
 
 .game_carousel .owl-item {
     -webkit-transform: scale(0.95);
     transform: scale(0.95);
+    transition: .4s all ease-in-out, .4s all ease-in-out;
 }
 
 .owl-carousel .owl-dots.disabled {
